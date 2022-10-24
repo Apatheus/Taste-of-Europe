@@ -34,12 +34,12 @@
 </head>
 
 <body>
-    <nav class="nav justify-content-center bg-light p-2 ">
-        <a class="nav-link active" href="index.html">Accueil</a></li>
-        <a class="nav-link" href="programme.html">Programme</a></li>
-        <a class="nav-link" href="index.html"><img src="">(Logo)</a></li>
-        <a class="nav-link" href="tickets.php">Tickets</a></li>
-        <a class="nav-link" href="connection.php">Administration</a></li>
+    <nav class="nav justify-content-center bg-light p-2">
+            <a class="nav-link link-dark active mx-2" href="#">Accueil</a>
+            <a class="nav-link link-dark mx-2" href="#">Programme</a>
+            <a class="nav-link link-dark mx-2" href="#"><img class="img-fluid" src="images/logo.png"></a>
+            <a class="nav-link link-dark mx-2" href="#">Tickets</a>
+            <a class="nav-link link-dark mx-2" href="#">Administration</a>
     </nav>
 
     <div class="grid"> <!-- Début Grille -->

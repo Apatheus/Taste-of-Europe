@@ -64,7 +64,14 @@
       }
   }
   ?>
-
+    <nav class="nav justify-content-center bg-light p-2">
+            <a class="nav-link link-dark active mx-2" href="#">Accueil</a>
+            <a class="nav-link link-dark mx-2" href="#">Programme</a>
+            <a class="nav-link link-dark mx-2" href="#"><img class="img-fluid" src="images/logo.png"></a>
+            <a class="nav-link link-dark mx-2" href="#">Tickets</a>
+            <a class="nav-link link-dark mx-2" href="#">Administration</a>
+    </nav>
+    
 <!--formulaire a pas toucher-->
 <form  action="admin.php" method="POST" class="p-4 offset-md-4 col-md-4 justify-content-center border">
             <legend> activités :</legend>
