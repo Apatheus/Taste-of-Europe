@@ -35,9 +35,9 @@
 
 <body>
     <nav class="nav justify-content-center bg-light p-2 ">
-        <a class="nav-link active" href="#">Accueil</a></li>
-        <a class="nav-link" href="#">Programme</a></li>
-        <a class="nav-link" href="#"><img src="">(Logo)</a></li>
+        <a class="nav-link active" href="index.html">Accueil</a></li>
+        <a class="nav-link" href="programme.html">Programme</a></li>
+        <a class="nav-link" href="index.html"><img src="">(Logo)</a></li>
         <a class="nav-link" href="tickets.php">Tickets</a></li>
         <a class="nav-link" href="connection.php">Administration</a></li>
     </nav>
