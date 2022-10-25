@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.2
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le : lun. 24 oct. 2022 à 17:43
--- Version du serveur :  10.4.14-MariaDB
--- Version de PHP : 7.4.9
+-- Généré le : mar. 25 oct. 2022 à 10:51
+-- Version du serveur : 10.4.25-MariaDB
+-- Version de PHP : 8.1.10
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -39,7 +39,8 @@ CREATE TABLE `activite` (
 --
 
 INSERT INTO `activite` (`id_activite`, `nom`, `description`, `date`) VALUES
-(1, 'gispert', 'apprend a cuisiner', '28/07/23 10h52');
+(1, 'gispert', 'apprend a cuisiner', '28/07/23 10h52'),
+(25, 'coucou', 'je suis modifier', 'non');
 
 -- --------------------------------------------------------
 
@@ -78,7 +79,8 @@ CREATE TABLE `animation` (
 --
 
 INSERT INTO `animation` (`description`, `date`, `nom`, `id_animation`) VALUES
-('On vous propose un petit concour de cuisine européennes pour voir qui seras le grand gagnant de la cuisine a nôtre festival', '28/07/23 09h45', 'concours de cuisine', 1);
+('On vous propose un petit concour de cuisine européennes pour voir qui seras le grand gagnant de la cuisine a nôtre festival', '28/07/23 09h45', 'concours de cuisine', 1),
+('je suis modifier', '2525', 'coucou', 25);
 
 -- --------------------------------------------------------
 
