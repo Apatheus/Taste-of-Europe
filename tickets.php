@@ -32,6 +32,13 @@ if (isset($_POST['nom'])) {
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <title>Taste of Europe</title>
+    <style>
+        body {
+            background-image: url(https://dbdzm869oupei.cloudfront.net/img/vinylrugs/preview/29739.png);
+
+
+        }
+    </style>
 </head>
 
 <body>
@@ -46,11 +53,11 @@ if (isset($_POST['nom'])) {
 
     <div class="grid">
         <!-- Début Grille -->
-        <h1 class="d-flex justify-content-center mt-5">Tickets</h1>
+        <h1 class="d-flex justify-content-center mt-5 ">Tickets</h1>
 
 
         <!--formulaire a pas toucher-->
-        <form action="tickets.php" method="POST" class="p-4 offset-md-4 col-md-4 justify-content-center border">
+        <form action="tickets.php" method="POST" class="p-4 offset-md-4 col-md-4 justify-content-center border bg-light rounded ">
             <legend>Inscription aux activités :</legend>
             <div class="form-group mt-2">
                 <label for="nom">Nom :</label>
@@ -78,8 +85,10 @@ if (isset($_POST['nom'])) {
             <div class="text-center"><br>
                 <input type="submit" value="Envoyer" class="btn btn-warning">
             </div>
-        </form>
+        </form></br></br></br>
     </div> <!-- Fin Grille -->
+
+
     <footer class="p-4 bg-dark text-white text-center">
         Conçu par les MMI2 du Puy-en-Velay, année 2022-2023.
     </footer>
