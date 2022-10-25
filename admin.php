@@ -135,7 +135,7 @@ if (isset($_POST['id_am2'])) {
     <button class="btn" onclick="myFunction3()">modifier</button>
 
     <!--formulaire a pas toucher-->
-    <div id="form1">
+</br><div id="form1">
         <form action="admin.php" method="POST" class="p-4 offset-md-4 col-md-4 justify-content-center border bg-light rounded 3">
             <legend> activités :</legend>
             <div class="form-group mt-2">
@@ -161,7 +161,7 @@ if (isset($_POST['id_am2'])) {
             <div class="text-center"><br>
                 <input type="submit" value="Envoyer" class="btn btn-warning">
             </div>
-        </form>
+        </form></br>
 
         <form action="admin.php" method="POST" class="p-4 offset-md-4 col-md-4 justify-content-center border border bg-light">
             <legend> animations :</legend>
@@ -191,7 +191,7 @@ if (isset($_POST['id_am2'])) {
         </form>
 
     </div>
-    <div id="form2">
+</br><div id="form2">
         <form action="admin.php" method="POST" class="p-4 offset-md-4 col-md-4 justify-content-center border border bg-light">
             <legend> supressions de donné des activité :</legend>
             <div class="form-group mt-2">
@@ -202,7 +202,7 @@ if (isset($_POST['id_am2'])) {
                     <input type="submit" value="Envoyer" class="btn btn-warning">
                 </div>
             </div>
-        </form>
+        </form></br>
 
         <form action="admin.php" method="POST" class="p-4 offset-md-4 col-md-4 justify-content-center border border bg-light">
             <legend> supressions de donné des Animation :</legend>
@@ -216,7 +216,7 @@ if (isset($_POST['id_am2'])) {
             </div>
         </form>
     </div>
-    <div id="form3">
+</br><div id="form3">
         <form action="admin.php" method="POST" class="p-4 offset-md-4 col-md-4 justify-content-center border border bg-light">
             <legend> activités modifier :</legend>
             <div class="form-group mt-2">
@@ -242,7 +242,7 @@ if (isset($_POST['id_am2'])) {
             <div class="text-center"><br>
                 <input type="submit" value="Envoyer" class="btn btn-warning">
             </div>
-        </form>
+        </form></br>
 
         <form action="admin.php" method="POST" class="p-4 offset-md-4 col-md-4 justify-content-center border border bg-light">
             <legend> animation modifier :</legend>
@@ -270,7 +270,7 @@ if (isset($_POST['id_am2'])) {
                 <input type="submit" value="Envoyer" class="btn btn-warning">
             </div>
         </form>
-    </div>
+    </div></br></br>
 
     <footer class="p-4 bg-dark text-white text-center">
         Conçu par les MMI2 du Puy-en-Velay, année 2022-2023.
