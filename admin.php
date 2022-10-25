@@ -75,6 +75,10 @@ if (isset($_POST['id_am2'])) {
     <script src="admin.js"></script>
     <title>Taste of Europe</title>
     <style>
+        body {
+            background-image: url(https://justbagtags.com.au/wp-content/uploads/2019/05/16-patterns-01-bright-orange-waves-46.jpg);
+        }
+
         #form1 {
             display: none;
 
@@ -101,7 +105,7 @@ if (isset($_POST['id_am2'])) {
         <a class="nav-link link-dark mx-2" href="programme.html">Programme</a>
         <a class="nav-link link-dark mx-2" href="index.html"><img class="img-fluid" src="images/logo.png"></a>
         <a class="nav-link link-dark mx-2" href="tickets.php">Tickets</a>
-        <a class="nav-link link-dark mx-2" href="admin.php">Administration</a>
+        <a class="nav-link link-dark mx-2" href="connection.php">Administration</a>
     </nav>
 
     <!--connectionadmin-->
@@ -132,7 +136,7 @@ if (isset($_POST['id_am2'])) {
 
     <!--formulaire a pas toucher-->
     <div id="form1">
-        <form action="admin.php" method="POST" class="p-4 offset-md-4 col-md-4 justify-content-center border">
+        <form action="admin.php" method="POST" class="p-4 offset-md-4 col-md-4 justify-content-center border bg-light rounded 3">
             <legend> activités :</legend>
             <div class="form-group mt-2">
                 <label for="id_a">id :</label>
@@ -159,7 +163,7 @@ if (isset($_POST['id_am2'])) {
             </div>
         </form>
 
-        <form action="admin.php" method="POST" class="p-4 offset-md-4 col-md-4 justify-content-center border">
+        <form action="admin.php" method="POST" class="p-4 offset-md-4 col-md-4 justify-content-center border border bg-light">
             <legend> animations :</legend>
             <div class="form-group mt-2">
                 <label for="id_anim">id :</label>
@@ -188,7 +192,7 @@ if (isset($_POST['id_am2'])) {
 
     </div>
     <div id="form2">
-        <form action="admin.php" method="POST" class="p-4 offset-md-4 col-md-4 justify-content-center border">
+        <form action="admin.php" method="POST" class="p-4 offset-md-4 col-md-4 justify-content-center border border bg-light">
             <legend> supressions de donné des activité :</legend>
             <div class="form-group mt-2">
                 <label for="id_supr">id :</label>
@@ -200,7 +204,7 @@ if (isset($_POST['id_am2'])) {
             </div>
         </form>
 
-        <form action="admin.php" method="POST" class="p-4 offset-md-4 col-md-4 justify-content-center border">
+        <form action="admin.php" method="POST" class="p-4 offset-md-4 col-md-4 justify-content-center border border bg-light">
             <legend> supressions de donné des Animation :</legend>
             <div class="form-group mt-2">
                 <label for="id_supr2">id :</label>
@@ -213,7 +217,7 @@ if (isset($_POST['id_am2'])) {
         </form>
     </div>
     <div id="form3">
-        <form action="admin.php" method="POST" class="p-4 offset-md-4 col-md-4 justify-content-center border">
+        <form action="admin.php" method="POST" class="p-4 offset-md-4 col-md-4 justify-content-center border border bg-light">
             <legend> activités modifier :</legend>
             <div class="form-group mt-2">
                 <label for="id_am">id : non modifiable</label>
@@ -240,7 +244,7 @@ if (isset($_POST['id_am2'])) {
             </div>
         </form>
 
-        <form action="admin.php" method="POST" class="p-4 offset-md-4 col-md-4 justify-content-center border">
+        <form action="admin.php" method="POST" class="p-4 offset-md-4 col-md-4 justify-content-center border border bg-light">
             <legend> animation modifier :</legend>
             <div class="form-group mt-2">
                 <label for="id_am2">id : non modifiable</label>
