@@ -1,28 +1,29 @@
 <!--connection BDD-->
 <?php
-       //définition connection et requete
-       $servername = 'localhost';
-       $username = 'root';
-       $password = '';
-       //connexion bdd et requete
-       //On établit la connexion
-       $connection = new PDO("mysql:host=$servername;port=3306;dbname=tasteofeurope", $username, $password);
-       $connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+//définition connection et requete
+$servername = 'localhost';
+$username = 'root';
+$password = '';
+//connexion bdd et requete
+//On établit la connexion
+$connection = new PDO("mysql:host=$servername;port=3306;dbname=tasteofeurope", $username, $password);
+$connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 ?>
 <!--récupération et envoie de donées-->
 <?php
-    if(isset($_POST['nom'])){
-     $nom=$_POST['nom'];
-     $prenom=$_POST['prenom'];
-     $mail=$_POST['mail'];
-     $animation=$_POST['animation'];
-     $sql0 ="INSERT INTO inscrit (nom, prenom, mail, animation) VALUES ('$nom' , '$prenom', '$mail','$animation')";
-     $connection->exec($sql0);
+if (isset($_POST['nom'])) {
+    $nom = $_POST['nom'];
+    $prenom = $_POST['prenom'];
+    $mail = $_POST['mail'];
+    $animation = $_POST['animation'];
+    $sql0 = "INSERT INTO inscrit (nom, prenom, mail, animation) VALUES ('$nom' , '$prenom', '$mail','$animation')";
+    $connection->exec($sql0);
 }
 ?>
 
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -35,47 +36,53 @@
 
 <body>
     <nav class="nav justify-content-center bg-light p-2">
-            <a class="nav-link link-dark active mx-2" href="#">Accueil</a>
-            <a class="nav-link link-dark mx-2" href="#">Programme</a>
-            <a class="nav-link link-dark mx-2" href="#"><img class="img-fluid" src="images/logo.png"></a>
-            <a class="nav-link link-dark mx-2" href="#">Tickets</a>
-            <a class="nav-link link-dark mx-2" href="#">Administration</a>
+        <a class="nav-link link-dark mx-2" href="index.html">Accueil</a>
+        <a class="nav-link link-dark mx-2" href="programme.html">Programme</a>
+        <a class="nav-link link-dark mx-2" href="index.html"><img class="img-fluid" src="images/logo.png"></a>
+        <a class="nav-link link-dark mx-2" href="tickets.php">Tickets</a>
+        <a class="nav-link link-dark mx-2" href="connection.php">Administration</a>
     </nav>
 
-    <div class="grid"> <!-- Début Grille -->
+
+    <div class="grid">
+        <!-- Début Grille -->
         <h1 class="d-flex justify-content-center mt-5">Tickets</h1>
 
 
         <!--formulaire a pas toucher-->
-        <form  action="tickets.php" method="POST" class="p-4 offset-md-4 col-md-4 justify-content-center border">
+        <form action="tickets.php" method="POST" class="p-4 offset-md-4 col-md-4 justify-content-center border">
             <legend>Inscription aux activités :</legend>
-                <div class="form-group mt-2">
-                    <label for="nom" >Nom :</label>
-                    <input name="nom" type="text" class="form-control" placeholder="Votre nom">
-                </div>
+            <div class="form-group mt-2">
+                <label for="nom">Nom :</label>
+                <input name="nom" type="text" class="form-control" placeholder="Votre nom">
+            </div>
 
-                <div class="form-group mt-2">
-                    <label for="prenom" >Prénom :</label>
-                    <input name="prenom" type="text" class="form-control" placeholder="Votre prénom">
-                </div>
+            <div class="form-group mt-2">
+                <label for="prenom">Prénom :</label>
+                <input name="prenom" type="text" class="form-control" placeholder="Votre prénom">
+            </div>
 
-                <div class="form-group mt-2 mb-2">
-                    <label for="mail" >Adresse mail :</label>
-                    <input name="mail" type="mail" class="form-control" placeholder="Votre adresse mail">
-                </div>
-                <div>
+            <div class="form-group mt-2 mb-2">
+                <label for="mail">Adresse mail :</label>
+                <input name="mail" type="mail" class="form-control" placeholder="Votre adresse mail">
+            </div>
+            <div>
                 <label for="animation">animation</label>
-              <select name="animation"  >
-                <option value="concour de cuisine">concour de cuisine</option>
-                <option value="concour de mangeur"> concour de mangeur</option>
-              </select><br></div>
-                
+                <select name="animation">
+                    <option value="concour de cuisine">concour de cuisine</option>
+                    <option value="concour de mangeur"> concour de mangeur</option>
+                </select><br>
+            </div>
 
-                <div class="text-center"><br>
-                    <input type="submit" value="Envoyer" class="btn btn-warning">
-                </div>
+
+            <div class="text-center"><br>
+                <input type="submit" value="Envoyer" class="btn btn-warning">
+            </div>
         </form>
     </div> <!-- Fin Grille -->
+    <footer class="p-4 bg-dark text-white text-center">
+        Conçu par les MMI2 du Puy-en-Velay, année 2022-2023.
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
