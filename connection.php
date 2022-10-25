@@ -22,6 +22,11 @@ $connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <title>Taste of Europe</title>
+    <style>
+        body {
+            background-image: url(https://static.vecteezy.com/system/resources/previews/001/893/839/non_2x/blue-waves-pattern-free-vector.png);
+        }
+    </style>
 </head>
 
 <body>
@@ -37,7 +42,7 @@ $connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         <a class="nav-link link-dark mx-2" href="connection.php">Administration</a>
     </nav>
 
-    <section class=ogin class="element3">
+    <div class=ogin class="element3">
         <?php
 
         $msg = "";
@@ -59,39 +64,40 @@ $connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         }
         ?>
 
-        <fieldset class="bibou">
-            <form name="frmregister" action="admin.php" method="post" class="bibou">
-                <table class="form" border="0">
+        </br></br></br>
+        <form name="frmregister" action="admin.php" method="post" class="p-4 offset-md-4 col-md-4 justify-content-center border bg-light rounded ">
+            <table class="form" border="0">
 
-                    <tr>
-                        <td></td>
-                        <td style="color:red;">
-                            <?php echo $msg; ?></td>
-                    </tr>
+                <tr>
+                    <td></td>
+                    <td style="color:red;">
+                        <?php echo $msg; ?></td>
+                </tr>
 
-                    <tr>
-                        <th><label for="name"><strong>Name:</strong></label></th>
-                        <td><input class="inp-text" name="name" id="name" type="text" size="30" /></td>
-                    </tr>
-                    <tr>
-                        <th><label for="name"><strong>Password:</strong></label></th>
-                        <td><input class="inp-text" name="password" id="password" type="password" size="30" /></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td class="submit-button-right">
-                            <input class="send_btun" type="submit" value="Submit" alt="Submit" title="Submit" />
+                <tr>
+                    <th><label for="name"><strong>Name:</strong></label></th>
+                    <td><input class="inp-text" name="name" id="name" type="text" size="30" /></td>
+                </tr>
+                <tr>
+                    <th><label for="name"><strong>Password:</strong></label></th>
+                    <td><input class="inp-text" name="password" id="password" type="password" size="30" /></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="submit-button-right">
+                        <input class="send_btun" type="submit" value="Submit" alt="Submit" title="Submit" />
 
-                            <input class="send_btn" type="reset" value="Reset" alt="Reset" title="Reset" />
-                        </td>
+                        <input class="send_btn" type="reset" value="Reset" alt="Reset" title="Reset" />
+                    </td>
 
-                    </tr>
-                </table>
+                </tr>
+            </table>
 
-            </form>
-        </fieldset>
+        </form>
 
-    </section>
+
+    </div>
+    </br></br></br>
     <footer class="p-4 bg-dark text-white text-center">
         Conçu par les MMI2 du Puy-en-Velay, année 2022-2023.
     </footer>
