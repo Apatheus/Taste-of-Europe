@@ -1,9 +1,10 @@
 <?php
     require "connexion_bdd.php";
     require "config.inc.php";
-    $conn = new BDD(DB_SERVER, DB_USER, DB_PASS, DB_DATABASE);
-    $link = $conn->connexion();
+    $connection = new BDD(DB_SERVER, DB_USER, DB_PASS, DB_DATABASE);
+    $link = $connection->connexion();
 ?>
+
 
 <!DOCTYPE html>
 <html lang="fr">
@@ -15,12 +16,8 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
+    <link href="style.css" rel="stylesheet">
     <title>Taste of Europe</title>
-    <style>
-        body {
-            background-image: url(https://static.vecteezy.com/system/resources/previews/001/893/839/non_2x/blue-waves-pattern-free-vector.png);
-        }
-    </style>
 </head>
 
 <body>
@@ -36,62 +33,38 @@
         <a class="nav-link link-dark mx-2" href="connection.php">Administration</a>
     </nav>
 
-    <div class=ogin class="element3">
-        <?php
 
-        $msg = "";
-        if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-            $name = $_POST["name"];
-            $password = ($_POST["password"]);
-            if ($name == '' || $password == '') {
-                $msg = "You must enter all fields";
-            } else {
-                $requete = "SELECT * FROM admin WHERE login = '$name' AND mdp = '$password'";
-                $resultats = $connection->query($requete);
-                $tabMembers = $resultats->fetchAll();
-                $resultats->closeCursor();
-                if (count($tabMembers) == 0) {
-                    echo "Could not successfully run query ($sql) from DB: ";
-                    exit;
-                }
-            }
-        }
-        ?>
+        <div class="py-5 fond">
+            <form name="frmregister" action="admin.php" method="post" class="p-4 offset-md-4 col-md-4 justify-content-center border bg-light rounded">
+                <table class="form">
 
-        </br></br></br>
-        <form name="frmregister" action="admin.php" method="post" class="p-4 offset-md-4 col-md-4 justify-content-center border bg-light rounded ">
-            <table class="form" border="0">
+                    <tr>
+                        <td></td>
+                    </tr>
 
-                <tr>
-                    <td></td>
-                    <td style="color:red;">
-                        <?php echo $msg; ?></td>
-                </tr>
+                    <tr>
+                        <th><label for="name"><strong>Name:</strong></label></th>
+                        <td><input class="inp-text" name="name" id="name" type="text" size="30" /></td>
+                    </tr>
+                    <tr>
+                        <th><label for="name"><strong>Password:</strong></label></th>
+                        <td><input class="inp-text" name="password" id="password" type="password" size="30" /></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td class="submit-button-right">
+                            <input class="send_btun" type="submit" value="Submit" alt="Submit" title="Submit" />
 
-                <tr>
-                    <th><label for="name"><strong>Name:</strong></label></th>
-                    <td><input class="inp-text" name="name" id="name" type="text" size="30" /></td>
-                </tr>
-                <tr>
-                    <th><label for="name"><strong>Password:</strong></label></th>
-                    <td><input class="inp-text" name="password" id="password" type="password" size="30" /></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td class="submit-button-right">
-                        <input class="send_btun" type="submit" value="Submit" alt="Submit" title="Submit" />
+                            <input class="send_btn" type="reset" value="Reset" alt="Reset" title="Reset" />
+                        </td>
 
-                        <input class="send_btn" type="reset" value="Reset" alt="Reset" title="Reset" />
-                    </td>
+                    </tr>
+                </table>
 
-                </tr>
-            </table>
-
-        </form>
-
+            </form>
+        </div>
 
     </div>
-    </br></br></br>
     <footer class="p-4 bg-dark text-white text-center">
         Conçu par les MMI2 du Puy-en-Velay, année 2022-2023.
     </footer>
