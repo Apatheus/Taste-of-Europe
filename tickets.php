@@ -1,14 +1,10 @@
-<!--connection BDD-->
 <?php
-//définition connection et requete
-$servername = 'localhost';
-$username = 'root';
-$password = '';
-//connexion bdd et requete
-//On établit la connexion
-$connection = new PDO("mysql:host=$servername;port=3306;dbname=tasteofeurope", $username, $password);
-$connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    require "connexion_bdd.php";
+    require "config.inc.php";
+    $conn = new BDD(DB_SERVER, DB_USER, DB_PASS, DB_DATABASE);
+    $link = $conn->connexion();
 ?>
+
 <!--récupération et envoie de donées-->
 <?php
 if (isset($_POST['nom'])) {
