@@ -164,6 +164,15 @@ h1 {
     justify-content: center;
 }
 
+.icone_uk{
+    width: 30%;
+}
+
+.icone_fr{
+    width: 30%;
+}
+
+
 .btn{
     background-color: var(--light-background);
     border-radius: 2rem;
