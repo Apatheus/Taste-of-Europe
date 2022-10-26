@@ -19,7 +19,7 @@
     /* light colors */
     --light-background: rgb(182, 182, 182);
     --light-background-2: white;
-    --liht-color: black;
+    --light-color: black;
     --light-main-color: #63C5E4;
     /* Dark colors */
     --dark-background: #363537;
@@ -38,9 +38,20 @@ body {
 nav{
     background: var(--light-background);
 }
-nav>a {
+.nav-link {
+    border-radius: 2rem;
     font-size: 20px;
     align-self: center;
+    color: var(--light-color);
+}
+.nav-link:hover{
+    transform: scale(1.1);
+    transition: .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    border: solid 2px var(--light-main-color);
+    color: var(--light-color);
+}
+.nav-link:nth-child(3){
+    border: none;
 }
 
 a>img {
@@ -103,7 +114,7 @@ h1 {
     color: var(--dark-color);
 }
 
-/* DARK MODE */
+/* Définition du bouton */
 .dark {
     background: var(--dark-background);
     color: var(--dark-color);
@@ -120,6 +131,16 @@ h1 {
 .dark a{
     color: var(--dark-color);
 }
+.dark .nav-link:hover{
+    transform: scale(1.1);
+    transition: .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    border: solid 2px var(--dark-main-color);
+    color: var(--dark-color);
+}
+.dark .nav-link:hover:nth-child(3){
+    border: none;
+}
+
 .dark .btn{
     background-color: var(--dark-background-2);
     border-radius: 2rem;
