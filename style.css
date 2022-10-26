@@ -38,6 +38,7 @@ nav{
 }
 nav>a {
     font-size: 20px;
+    align-self: center;
 }
 
 a>img {
