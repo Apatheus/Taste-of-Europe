@@ -1,8 +1,8 @@
 <?php
     require "connexion_bdd.php";
     require "config.inc.php";
-    $conn = new BDD(DB_SERVER, DB_USER, DB_PASS, DB_DATABASE);
-    $link = $conn->connexion();
+    $connection = new BDD(DB_SERVER, DB_USER, DB_PASS, DB_DATABASE);
+    $link = $connection->connexion();
 ?>
 
 <!--récupération et envoie de donées-->
@@ -13,7 +13,7 @@ if (isset($_POST['nom'])) {
     $mail = $_POST['mail'];
     $animation = $_POST['animation'];
     $sql0 = "INSERT INTO inscrit (nom, prenom, mail, animation) VALUES ('$nom' , '$prenom', '$mail','$animation')";
-    $connection->exec($sql0);
+    mysqli_query($link, $sql0);
 }
 ?>
 
@@ -85,7 +85,7 @@ if (isset($_POST['nom'])) {
     </div> <!-- Fin Grille -->
 
 
-    <footer class="p-4 bg-dark text-white text-center">
+    <footer class="p-4 bg-dark text-white text-center fixed-bottom">
         Conçu par les MMI2 du Puy-en-Velay, année 2022-2023.
     </footer>
 
