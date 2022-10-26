@@ -28,6 +28,8 @@
     --dark-main-color: #ED7D3B;
 }
 
+/* paramètres généraux et header/navbar */
+
 body {
     font-family: 'helveticaneuelight';
     transition: .5s cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -43,6 +45,11 @@ nav>a {
 
 a>img {
     height: 8vw;
+}
+
+.fi{
+    width: 3vw;
+    border-radius: .3rem;
 }
 
 h1 {
@@ -135,11 +142,7 @@ h1 {
     background: var(--dark-main-color);
 }
 
-#map {
-    height: 50em;
-    width: 50%;
-    border-radius: 2rem;
-}
+/* FIN MODE SOMBRE */
 
 .bandeaujaune {
     background-color: #E2D16F;
@@ -165,14 +168,11 @@ h1 {
     justify-content: center;
 }
 
-.icone_uk{
-    width: 30%;
+#map {
+    height: 50em;
+    width: 50%;
+    border-radius: 2rem;
 }
-
-.icone_fr{
-    width: 30%;
-}
-
 
 .btn{
     background-color: var(--light-background);
