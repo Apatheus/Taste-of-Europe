@@ -45,13 +45,11 @@ nav{
     color: var(--light-color);
 }
 .nav-link:hover{
-    transform: scale(1.1);
     transition: .5s cubic-bezier(0.075, 0.82, 0.165, 1);
-    border: solid 2px var(--light-main-color);
-    color: var(--light-color);
+    color: var(--light-main-color);
 }
-.nav-link:nth-child(3){
-    border: none;
+.nav-link:hover:nth-child(3n+3){
+    transform: scale(1.1);
 }
 
 a>img {
@@ -132,26 +130,23 @@ h1 {
     color: var(--dark-color);
 }
 .dark .nav-link:hover{
-    transform: scale(1.1);
     transition: .5s cubic-bezier(0.075, 0.82, 0.165, 1);
-    border: solid 2px var(--dark-main-color);
-    color: var(--dark-color);
+    color: var(--dark-main-color);
 }
 .dark .nav-link:hover:nth-child(3){
-    border: none;
+    transform: scale(1.1);
 }
 
 .dark .btn{
     background-color: var(--dark-background-2);
     border-radius: 2rem;
     transition: .5s cubic-bezier(0.165, 0.84, 0.44, 1);
-    box-shadow: 1px 1px var(--dark-main-color);
+    box-shadow: 2px 1px var(--dark-main-color);
 }
 
 .dark .btn:hover{
     background-color: var(--dark-main-color);
-    transform: scale(1.1);
-    box-shadow: 3px 2px var(--dark-background-2);
+    box-shadow: 4px 4px var(--dark-background-2);
 }
 
 .dark .label {
@@ -165,14 +160,36 @@ h1 {
 
 /* FIN MODE SOMBRE */
 
-.bandeaujaune {
-    background-color: #E2D16F;
+#rounded{
+    border-radius: 2rem;
+}
+.btn{
+    background-color: var(--light-background);
+    border-radius: 2rem;
+    transition: .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+    box-shadow: 2px 1px var(--light-main-color);
+
+}
+.btn:hover{
+    background-color: var(--light-main-color);
+    box-shadow: 4px 4px var(--light-background);
+}
+
+/* 1ere partie */
+.bandeaubleu {
+    background-color: #63C5E4;
     height: 3em;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+.border{
+    border-radius: 2rem;
+}
+.col-md-4>.text-center{
+    padding-top: 5%;
+}
+/* 2em partie */
 .bandeauorange {
     background-color: #EA5325;
     height: 3em;
@@ -181,32 +198,23 @@ h1 {
     justify-content: center;
 }
 
-.bandeaubleu {
-    background-color: #63C5E4;
+/* 3em partie */
+.bandeaujaune {
+    background-color: #E2D16F;
     height: 3em;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+
 #map {
-    height: 50em;
+    height: 60vh;
     width: 50%;
     border-radius: 2rem;
 }
 
-.btn{
-    background-color: var(--light-background);
-    border-radius: 2rem;
-    transition: .5s cubic-bezier(0.165, 0.84, 0.44, 1);
-    box-shadow: 1px 1px var(--light-main-color);
 
-}
-.btn:hover{
-    background-color: var(--light-main-color);
-    transform: scale(1.1);
-    box-shadow: 3px 2px var(--light-background);
-}
 
 #plat > .img-fluid {
   width: 50px;
