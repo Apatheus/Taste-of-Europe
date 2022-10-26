@@ -1,7 +1,8 @@
+/* Définition de la police */
 @font-face {
     font-family: 'helveticaneuelight';
     src: url('polices/helveticaneue_light-webfont.woff2') format('woff2'),
-         url('polices/helveticaneue_light-webfont.woff') format('woff');
+        url('polices/helveticaneue_light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -9,48 +10,169 @@
 @font-face {
     font-family: 'helveticaneuemedium';
     src: url('polices/helveticaneue_medium-webfont.woff2') format('woff2'),
-         url('polices/helveticaneue_medium-webfont.woff') format('woff');
+        url('polices/helveticaneue_medium-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
+/* Définition des paramètres racines */
+:root{
+    /* light colors */
+    --light-background: rgb(182, 182, 182);
+    --light-background-2: white;
+    --liht-color: black;
+    --light-main-color: #63C5E4;
+    /* Dark colors */
+    --dark-background: #363537;
+    --dark-background-2: black;
+    --dark-color: white;
+    --dark-main-color: #ED7D3B;
 }
 
 body {
     font-family: 'helveticaneuelight';
+    transition: .5s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-nav > a {
+nav{
+    background: var(--light-background);
+}
+nav>a {
     font-size: 20px;
+}
+
+a>img {
+    height: 8vw;
 }
 
 h1 {
     font-family: 'helveticaneuemedium';
 }
 
-#map { 
+/* Passage au mode sombre */
+
+.toggle {
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+}
+
+.checkbox {
+    display: none;
+}
+
+.label {
+    height: 36px;
+    width: 67px;
+    background: var(--light-background-2);
+    padding: 5px 8px;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    box-shadow: 2px 1px 1px var(--light-main-color);
+    transition: .2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.label .ball {
+    background: var(--light-main-color);
+    border-radius: 50%;
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    top: 5px;
+    left: 6px;
+    transform: translateX(0px);
+    transition: transform 0.4s cubic-bezier(.45, -1.12, .35, 1.78);
+}
+
+.checkbox:checked+.label .ball {
+    transform: translateX(29px);
+}
+
+.fa-moon .fa-sun{
+    color: var(--dark-color);
+}
+
+/* DARK MODE */
+.dark {
+    background: var(--dark-background);
+    color: var(--dark-color);
+}
+
+.dark main {
+    background: var(--dark-background-2);
+}
+.dark nav{
+    background: var(--dark-background-2);
+    color: var(--dark-color);
+}
+
+.dark a{
+    color: var(--dark-color);
+}
+.dark .btn{
+    background-color: var(--dark-background-2);
+    border-radius: 2rem;
+    transition: .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+    box-shadow: 1px 1px var(--dark-main-color);
+}
+
+.dark .btn:hover{
+    background-color: var(--dark-main-color);
+    transform: scale(1.1);
+    box-shadow: 3px 2px var(--dark-background-2);
+}
+
+.dark .label {
+    box-shadow: 2px 1px 1px var(--dark-main-color);
+    background: var(--dark-background);
+}
+
+.dark .ball {
+    background: var(--dark-main-color);
+}
+
+#map {
     height: 50em;
-    width: 50%; 
+    width: 50%;
+    border-radius: 2rem;
 }
 
-.bandeaujaune { 
-    background-color: #E2D16F; 
-    height: 3em; 
-    display: flex; 
+.bandeaujaune {
+    background-color: #E2D16F;
+    height: 3em;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.bandeauorange { 
-    background-color: #EA5325; 
-    height: 3em; 
-    display: flex; 
+.bandeauorange {
+    background-color: #EA5325;
+    height: 3em;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.bandeaubleu { 
-    background-color: #63C5E4; 
-    height: 3em; 
-    display: flex; 
-    align-items: center; 
+.bandeaubleu {
+    background-color: #63C5E4;
+    height: 3em;
+    display: flex;
+    align-items: center;
     justify-content: center;
+}
+
+.btn{
+    background-color: var(--light-background);
+    border-radius: 2rem;
+    transition: .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+    box-shadow: 1px 1px var(--light-main-color);
+
+}
+.btn:hover{
+    background-color: var(--light-main-color);
+    transform: scale(1.1);
+    box-shadow: 3px 2px var(--light-background);
 }
