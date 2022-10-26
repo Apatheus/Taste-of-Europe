@@ -219,3 +219,24 @@ h1 {
 #plat > .img-fluid {
   width: 50px;
   height: 50px;}
+
+  .fond {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/001/893/839/non_2x/blue-waves-pattern-free-vector.png);
+}
+
+.fond2 {
+    background-image: url(https://justbagtags.com.au/wp-content/uploads/2019/05/16-patterns-01-bright-orange-waves-46.jpg);
+}
+
+
+#form1, #form2, #form3 {
+    display: none;
+}
+
+.btn {
+    position: center;
+}
+
+#bodyadmin {
+    background-image: url(https://justbagtags.com.au/wp-content/uploads/2019/05/16-patterns-01-bright-orange-waves-46.jpg);
+}
