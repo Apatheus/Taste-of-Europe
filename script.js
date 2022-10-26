@@ -14,6 +14,7 @@ var circle = L.circle([45.043092230725975, 3.8836065281294774], {
 }).addTo(map);
 
 // Fin Leaflet
+
 // Début dark mode
 const darkMode = document.getElementById('dark-mode');
 
@@ -29,3 +30,33 @@ if (globalThis.matchMedia?.("(prefers-color-scheme:dark)").matches ?? true) {
 // Usage
 isDarkMode();
 // fin dark mode
+
+// Début fonction cacher
+function myFunction1() {
+    var x = document.getElementById("form1");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  } 
+
+  function myFunction2() {
+    var x = document.getElementById("form2");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  } 
+
+
+  function myFunction3() {
+    var x = document.getElementById("form3");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+  // Fin fonction cacher
