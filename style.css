@@ -233,6 +233,11 @@ h1 {
     border: black 3px solid
 }
 
+/* Page 2 */
+.imgcarou {
+    width: 100%;
+}
+
 /* Admin, Tickets */
 
 #bodyadmin {

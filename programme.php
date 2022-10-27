@@ -48,13 +48,13 @@
       <div id="carouselExampleControls" class="carousel slide img-hover-zoom" data-bs-ride="carousel">
         <div class="row carousel-inner" id="rounded">
           <div class="carousel-item active">
-            <img src="images/banniere.jpg" class="d-block w-100 img-fluid img-hover-zoom" alt="Concours de cuisine">
+            <img src="images/banniere.jpg" class="d-block w-100 img-fluid img-hover-zoom imgcarou" alt="Concours de cuisine">
           </div>
           <div class="carousel-item" id="rounded">
-            <img src="images/banniere.jpg" class="d-block w-100 img-fluid img-hover-zoom" alt="Dégustation à l'aveugle">
+            <img src="images/banniere.jpg" class="d-block w-100 img-fluid img-hover-zoom imgcarou" alt="Dégustation à l'aveugle">
           </div>
           <div class="carousel-item" id="rounded">
-            <img src="images/banniere.jpg" class="d-block w-100 img-fluid img-hover-zoom" alt="Concours de nourriture">
+            <img src="images/banniere.jpg" class="d-block w-100 img-fluid img-hover-zoom imgcarou" alt="Concours de nourriture">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
