@@ -20,7 +20,7 @@
     <title>Taste of Europe</title>
 </head>
 
-<body>
+<body id="bodyadmin">
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
@@ -33,34 +33,23 @@
         <a class="nav-link link-dark mx-2" href="connection.php">Administration</a>
     </nav>
 
-
+        <h1 class="d-flex justify-content-center mt-5 ">Accès à l'espace d'administration</h1>
         <div class="py-5 fond">
             <form name="frmregister" action="admin.php" method="post" class="p-4 offset-md-4 col-md-4 justify-content-center border bg-light rounded">
-                <table class="form">
+                <legend>Connexion</legend>
+                <div class="form-group mt-2">
+                    <label for="name">Identifiant :</label>
+                    <input class="form-control" name="name" id="name" type="text" size="30" />
+                
+                <div class="form-group mt-2">  
+                    <label for="name">Mot de passe :</label>
+                    <input class="form-control" name="password" id="password" type="password" size="30" />
+                </div>
 
-                    <tr>
-                        <td></td>
-                    </tr>
-
-                    <tr>
-                        <th><label for="name"><strong>Name:</strong></label></th>
-                        <td><input class="inp-text" name="name" id="name" type="text" size="30" /></td>
-                    </tr>
-                    <tr>
-                        <th><label for="name"><strong>Password:</strong></label></th>
-                        <td><input class="inp-text" name="password" id="password" type="password" size="30" /></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td class="submit-button-right">
-                            <input class="send_btun" type="submit" value="Submit" alt="Submit" title="Submit" />
-
-                            <input class="send_btn" type="reset" value="Reset" alt="Reset" title="Reset" />
-                        </td>
-
-                    </tr>
-                </table>
-
+                <div class="form-group mt-2">  
+                    <input class="btn" type="submit" value="Submit" alt="Submit" title="Submit" />
+                    <input class="btn" type="reset" value="Reset" alt="Reset" title="Reset" />
+                </div>
             </form>
         </div>
 

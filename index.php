@@ -34,7 +34,7 @@
         <a href="#" class="btn mt-3">Je m'inscris !</a>
     </div>
 
-    <div class="bandeaubleu mt-5 mb-5 text-white"><h2>Découvrez notre festival de tout les pays, en un seul !</h2></div>
+    <div class="bandeaubleu mt-5 mb-5 text-white d-flex align-items-center"><h5>Les saveurs de l'Europe en une seule et même place !</h5></div>
 
     <h1 class="d-flex justify-content-center mb-5">Taste of Europe, c'est quoi ?</h1>
     <div class="container">
@@ -44,13 +44,13 @@
             </div>
             <div class="col-md-4">
 
-                <p class="text-center"><b>Régalez vos papilles</b></p>
-                <p class="text-justify">Taste of Europe est un festivale regroupant un grand nombre de pays d’Europe
-                    dans le but de faire découvrir les différentes cultures des pays voisins de la France. <br>
-                    Du 18 au 20, découvrez le Puy en Velay sous ses airs gourment, pour un festival réunissant plus de
-                    10 pays européen pour vous faire découvrir tout un panel de saveurs inhabituels ! c’est dans une
-                    ambiance de fête décontracté que vous déambulerais dans les rues de la ville a la découvertes des
-                    stands, activités et diverses animation pour grand et petits.
+                <p class="text-center"><h5>Régalez vos papilles</h5></p>
+                <p class="text-justify">Taste of Europe est un événement ayant pour but de faire découvrir les nombreuses
+                    spécialités culinaires du Vieux Continent. <br>
+                    Du 18 au 20 juillet, découvrez le Puy-en-Velay sous ses airs gourmands, pour un festival réunissant plus de
+                    10 pays européen pour vous faire découvrir tout un panel de saveurs inhabituelles ! c’est dans une
+                    ambiance de fête décontractée que vous déambulerez dans les rues de la ville à la découvertes des
+                    stands, activités et diverses animations pour grands et petits.
                 </p><br>
                 <div class="text-center">
                     <a href="#" class="btn rounded-pill">S'inscrire</a>
@@ -111,9 +111,11 @@
     <div class="bandeaujaune mt-5 mb-5"></div>
 
     <h1 class="d-flex justify-content-center">Lieu de l'événement</h1>
-    <p class="text-center pd-5 position-relative">Le Puy en Velay, célèbre point de départ de Saint Jacque de Compostelle, capitale des
+    <div class="container">
+        <p class="text-center offset-md-2 col-md-8">Le Puy-en-Velay, célèbre point de départ de Saint Jacque de Compostelle, capitale des
         lentilles et de la verveine constitue l’endroit idéal pour partager ces moments avec ses rues pavé et ses
         bâtiments ancien.</p>
+    </div>
     <div class="d-flex justify-content-center mt-5 mb-1">
         <div id="map"></div>
     </div>
