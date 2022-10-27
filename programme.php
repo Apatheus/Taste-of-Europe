@@ -48,13 +48,10 @@
       <div id="carouselExampleControls" class="carousel slide img-hover-zoom" data-bs-ride="carousel">
         <div class="row carousel-inner" id="rounded">
           <div class="carousel-item active">
-            <img src="images/banniere.jpg" class="d-block w-100 img-fluid img-hover-zoom imgcarou" alt="Concours de cuisine">
+            <img src="images/animation1.png" class="d-block w-100 img-fluid img-hover-zoom imgcarou" alt="Concours de cuisine">
           </div>
           <div class="carousel-item" id="rounded">
-            <img src="images/banniere.jpg" class="d-block w-100 img-fluid img-hover-zoom imgcarou" alt="Dégustation à l'aveugle">
-          </div>
-          <div class="carousel-item" id="rounded">
-            <img src="images/banniere.jpg" class="d-block w-100 img-fluid img-hover-zoom imgcarou" alt="Concours de nourriture">
+            <img src="images/animation2.png" class="d-block w-100 img-fluid img-hover-zoom imgcarou" alt="Dégustation à l'aveugle">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -76,7 +73,7 @@
   </div>
   <h1 class="d-flex justify-content-center pb-4">Activités</h1>
   <div class="d-flex justify-content-center pb-4">
-    <img class="img-fluid img-hover-zoom" id="rounded" src="images/banniere.jpg">
+    <img class="img-fluid img-hover-zoom" id="rounded" src="images/activitésV2.png">
   </div>
 
   <footer class="p-4 bg-dark text-white text-center">
