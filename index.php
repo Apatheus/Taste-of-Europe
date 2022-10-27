@@ -34,7 +34,7 @@
         <a href="#" class="btn mt-3">Je m'inscris !</a>
     </div>
 
-    <div class="bandeaubleu mt-5 mb-5 text-white"><h2>Découvrez notre festival de tout les pays, en un seul !</h2></div>
+    <div class="bandeaubleu mt-5 mb-5 text-white d-flex align-items-center"><h5>Les saveurs de l'Europe en une seule et même place !</h5></div>
 
     <h1 class="d-flex justify-content-center mb-5">Taste of Europe, c'est quoi ?</h1>
     <div class="container">
@@ -111,9 +111,11 @@
     <div class="bandeaujaune mt-5 mb-5"></div>
 
     <h1 class="d-flex justify-content-center">Lieu de l'événement</h1>
-    <p class="text-center pd-5 position-relative">Le Puy en Velay, célèbre point de départ de Saint Jacque de Compostelle, capitale des
+    <div class="container">
+        <p class="text-center offset-md-2 col-md-8">Le Puy en Velay, célèbre point de départ de Saint Jacque de Compostelle, capitale des
         lentilles et de la verveine constitue l’endroit idéal pour partager ces moments avec ses rues pavé et ses
         bâtiments ancien.</p>
+    </div>
     <div class="d-flex justify-content-center mt-5 mb-1">
         <div id="map"></div>
     </div>
