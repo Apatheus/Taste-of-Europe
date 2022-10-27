@@ -10,13 +10,13 @@ Class BDD {
     private $host;
     private $base;
     private $id;
-    private $mdp;
+    private $mdp1;
 
     public function __construct() {
         $this->host = "localhost";
-        $this->base = "tasteofeurope";
+        $this->base = "dabachelie_europe";
         $this->id = "dabachelie_europe";
-        $this->mdp = "tasteofeurope";
+        $this->mdp1 = "tasteofeurope";
     }
 
     public function connexion() {
