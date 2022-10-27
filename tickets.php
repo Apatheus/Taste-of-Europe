@@ -70,8 +70,8 @@ if (isset($_POST['nom'])) {
       <div>
         <label for="animation">animation</label>
         <select name="animation">
-          <option value="concour de cuisine">concour de cuisine</option>
-          <option value="concour de mangeur"> concour de mangeur</option>
+          <option value="concour de cuisine">Concours de cuisine</option>
+          <option value="concour de mangeur">Dégustation à l'aveugle</option>
         </select><br>
       </div>
 
