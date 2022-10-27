@@ -81,7 +81,7 @@
   </div>
 
   <footer class="p-4 bg-dark text-white text-center">
-    Design by MMI2 of Puy-en-Velay, année 2022-2023.
+    Design by MMI2 of Puy-en-Velay, 2022-2023.
   </footer>
 
   <!-- Script Bootstrap -->
