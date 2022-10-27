@@ -69,7 +69,7 @@
     </div>
   </div>
 
-  <div class="row">
+  <div class="row" id="bandeau">
     <div class="bandeauorange col-md-4 my-5"></div>
     <div class="bandeaujaune col-md-4 my-5"></div>
     <div class="bandeaubleu col-md-4 my-5"></div>

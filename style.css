@@ -68,6 +68,9 @@ a>img {
 h1 {
     font-family: 'helveticaneuemedium';
 }
+.row {
+    margin:0; 
+}
 
 /* Passage au mode sombre */
 
