@@ -248,6 +248,7 @@ h1 {
 .imgcarou {
     width: 100%;
     border-radius: 2rem;
+    align-items: center;
 }
 
 /* Admin, Tickets */
