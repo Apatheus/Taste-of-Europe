@@ -31,7 +31,7 @@
 
     <div class="container text-center mt-5 position-relative">
         <img class="img-fluid" id="rounded" src="images/banniere.jpg">
-        <a href="#" class="btn mt-3">Je m'inscris !</a>
+        <a href="tickets.php" class="btn rounded-pill mt-3">Je m'inscris !</a>
     </div>
 
     <div class="bandeaubleu mt-5 mb-5 text-white d-flex align-items-center"><h5>Les saveurs de l'Europe en une seule et même place !</h5></div>
@@ -48,12 +48,12 @@
                 <p class="text-justify">Taste of Europe est un événement ayant pour but de faire découvrir les nombreuses
                     spécialités culinaires du Vieux Continent. <br>
                     Du 18 au 20 juillet, découvrez le Puy-en-Velay sous ses airs gourmands, pour un festival réunissant plus de
-                    10 pays européens pour vous faire découvrir tout un panel de saveurs inhabituelles ! c’est dans une
+                    10 pays européen pour vous faire découvrir tout un panel de saveurs inhabituelles ! c’est dans une
                     ambiance de fête décontractée que vous déambulerez dans les rues de la ville à la découvertes des
-                    stands, activités et diverses animations pour petits et grands.
+                    stands, activités et diverses animations pour grands et petits.
                 </p><br>
                 <div class="text-center">
-                    <a href="#" class="btn rounded-pill">S'inscrire</a>
+                    <a href="tickets.php" class="btn rounded-pill">S'inscrire</a>
                 </div>
             </div>
         </div>
