@@ -15,8 +15,8 @@ Class BDD {
     public function __construct() {
         $this->host = "localhost";
         $this->base = "tasteofeurope";
-        $this->id = "root";
-        $this->mdp = "";
+        $this->id = "dabachelie_europe";
+        $this->mdp = "tasteofeurope";
     }
 
     public function connexion() {
