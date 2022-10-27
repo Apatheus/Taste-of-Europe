@@ -22,15 +22,7 @@
     <?php
     include ('header.html');
     ?>
-    <nav class="nav justify-content-center bg-light p-2">
-        <a class="nav-link link-dark active mx-2" href="#">Home</a>
-        <a class="nav-link link-dark mx-2" href="programme_ang.html">Program</a>
-        <a class="nav-link link-dark mx-2" href="#"><img class="img-fluid" src="images/logov1.svg"></a>
-        <a class="nav-link link-dark mx-2" href="tickets_ang.php">Tickets</a>
-        <a class="nav-link link-dark mx-2" href="connection.php">Administration</a>
-        <a class="nav-link link-dark mx-2" href="index.html"><img class="icone_fr" src="images/fr.png"></a>
-    </nav>
-
+    
     <div class="container text-center mt-5 position-relative">
         <img class="img-fluid" src="images/banniere.jpg">
         <a href="#" class="btn btn-dark rounded-pill mt-3">I'm registering !</a>
