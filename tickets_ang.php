@@ -42,13 +42,9 @@ if (isset($_POST['nom'])) {
 </head>
 
 <body>
-    <nav class="nav justify-content-center bg-light p-2">
-        <a class="nav-link link-dark mx-2" href="index_ang.html">Home</a>
-        <a class="nav-link link-dark mx-2" href="programme_ang.html">Program</a>
-        <a class="nav-link link-dark mx-2" href="index_ang.html"><img class="img-fluid" src="images/logo.png"></a>
-        <a class="nav-link link-dark mx-2" href="tickets_ang.php">Tickets</a>
-        <a class="nav-link link-dark mx-2" href="connection.php">Administration</a>
-    </nav>
+    <?php
+  include('header.html');
+  ?>
 
 
     <div class="grid">
