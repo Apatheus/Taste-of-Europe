@@ -121,7 +121,7 @@
     <p class="text-center fst-italic mb-5">Place du Martouret - 43000, Le Puy-en-Velay</p>
 
     <footer class="p-4 bg-dark text-white text-center">
-        Designed by MMI2 of Puy-en-Velay, année 2022-2023.
+        Designed by MMI2 of Puy-en-Velay, 2022-2023.
     </footer>
 
     <!-- Script Bootstrap -->
