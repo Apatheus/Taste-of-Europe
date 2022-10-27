@@ -20,7 +20,7 @@ Class BDD {
     }
 
     public function connexion() {
-        $connexion = new mysqli($this->host,$this->id,$this->mdp,$this->base);
+        $connexion = new mysqli($this->host,$this->id,$this->mdp1,$this->base);
         return $connexion;
 
         if(mysqli_connect_error()) {
