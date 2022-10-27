@@ -18,15 +18,15 @@
 /* Définition des paramètres racines */
 :root {
     /* light colors */
-    --light-background: #63C5E4;
+    --light-background: rgb(182, 182, 182);
     --light-background-2: white;
     --light-color: black;
-    --light-main-color: #295563;
+    --light-main-color: #63C5E4;
     /* Dark colors */
     --dark-background: #363537;
-    --dark-background-2: #ED7D3B;
+    --dark-background-2: black;
     --dark-color: white;
-    --dark-main-color: white;
+    --dark-main-color: #ED7D3B;
 }
 
 /* paramètres généraux et header/navbar */
@@ -136,6 +136,7 @@ h1 {
 }
 
 .dark .nav-link:hover {
+    transition: .5s cubic-bezier(0.075, 0.82, 0.165, 1);
     color: var(--dark-main-color);
 }
 
@@ -145,13 +146,18 @@ h1 {
 
 .dark .btn {
     background-color: var(--dark-background-2);
+    border-radius: 2rem;
+    transition: .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+    box-shadow: 2px 1px var(--dark-main-color);
 }
 
 .dark .btn:hover {
     background-color: var(--dark-main-color);
+    box-shadow: 4px 4px var(--dark-background-2);
 }
 
 .dark .label {
+    box-shadow: 2px 1px 1px var(--dark-main-color);
     background: var(--dark-background);
 }
 
@@ -162,15 +168,19 @@ h1 {
 /* FIN MODE SOMBRE */
 
 #rounded {
-    border-radius: 1rem;
+    border-radius: 2rem;
 }
 
 .btn {
     background-color: var(--light-background);
+    border-radius: 2rem;
+    transition: .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+    box-shadow: 2px 1px var(--light-main-color);
 }
 
 .btn:hover {
     background-color: var(--light-main-color);
+    box-shadow: 4px 4px var(--light-background);
 }
 
 /* 1ere partie */
@@ -183,7 +193,7 @@ h1 {
 }
 
 .border {
-    border-radius: 1rem;
+    border-radius: 2rem;
 }
 
 .col-md-4>.text-center {
@@ -206,6 +216,7 @@ h1 {
 
 .img-hover-zoom {
     overflow: hidden;
+    border-radius: 1rem;
 }
 
 .img-hover-zoom img {
@@ -230,20 +241,25 @@ h1 {
 #map {
     height: 60vh;
     width: 70%;
-    border: black 3px solid
+    border-radius: 2rem;
 }
 
 /* Page 2 */
 .imgcarou {
     width: 100%;
+    border-radius: 2rem;
 }
 
 /* Admin, Tickets */
 
 #bodyadmin {
-    background-image: url(https://dbdzm869oupei.cloudfront.net/img/vinylrugs/preview/29739.png);
+    background-image: url(https://justbagtags.com.au/wp-content/uploads/2019/05/16-patterns-01-bright-orange-waves-46.jpg);
 }
 
 #bodytickets {
     background-image: url(https://dbdzm869oupei.cloudfront.net/img/vinylrugs/preview/29739.png);
+}
+
+#form1 ,#form2, #form3 {
+  display: none;
 }
