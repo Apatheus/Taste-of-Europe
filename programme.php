@@ -1,37 +1,32 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- CSS Leaflet -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css" integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin=""/>
-    <!-- JS Leaflet -->
-    <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js" integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg=" crossorigin=""></script>
-    <!-- CSS Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link href="style.css" rel="stylesheet">
-        <!-- CSS FontAwsome -->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-    <title>Taste of Europe - Programme</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="white">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="black">
+  <!-- CSS Leaflet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
+      integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin="" />
+  <!-- JS Leaflet -->
+  <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
+      integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg=" crossorigin=""></script>
+  <!-- CSS Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet">
+  <!-- CSS FontAwsome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- CSS Flags Lib -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css"/>
+  <title>Taste of Europe - Programme</title>
 </head>
 
 <body>
-    <nav class="nav justify-content-center bg-light p-2">
-        <a class="nav-link link-dark mx-2" href="index.html">Accueil</a>
-        <a class="nav-link link-dark mx-2" href="programme.html">Programme</a>
-        <a class="nav-link link-dark mx-2" href="index.html"><img class="img-fluid" src="images/logo.png"></a>
-        <a class="nav-link link-dark mx-2" href="tickets.php">Tickets</a>
-        <a class="nav-link link-dark mx-2" href="connection.php">Administration</a>
-    </nav>
-    <div class="toggle">
-      <input type="checkbox" class="checkbox" id="dark-mode" />
-      <label for="dark-mode" class="label">
-          <i class="fas fa-moon"></i>
-          <i class="fas fa-sun"></i>
-          <div class="ball"></div>
-      </label>
-  </div>
+  <?php
+  include ('header.html');
+  ?>
 
     <h1 class="d-flex justify-content-center pb-4">Animations</h1>
     <div class="row">
@@ -41,23 +36,23 @@
             </div>
 
             <div class="row d-flex justify-content-center">
-                <a class="btn btn-dark text-white rounded-pill">
+                <a class="btn rounded-pill">
                     Je m'inscris !
                 </a>
            </div>
         </div>
 
         <div class="col-md-4">
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
+            <div id="carouselExampleControls" class="carousel slide img-hover-zoom" data-bs-ride="carousel">
+                <div class="row carousel-inner" id="rounded">
                   <div class="carousel-item active">
-                    <img src="images/anim1.jpg" class="d-block w-100 img-fluid" alt="Concours de cuisine">
+                    <img src="images/banniere.jpg" class="d-block w-100 img-fluid img-hover-zoom" alt="Concours de cuisine">
                   </div>
-                  <div class="carousel-item">
-                    <img src="images/anim2.jpeg" class="d-block w-100 img-fluid" alt="Dégustation à l'aveugle">
+                  <div class="carousel-item" id="rounded">
+                    <img src="images/banniere.jpg" class="d-block w-100 img-fluid img-hover-zoom" alt="Dégustation à l'aveugle">
                   </div>
-                  <div class="carousel-item">
-                    <img src="images/anim3.jpg" class="d-block w-100 img-fluid" alt="Concours de nourriture">
+                  <div class="carousel-item" id="rounded">
+                    <img src="images/banniere.jpg" class="d-block w-100 img-fluid img-hover-zoom" alt="Concours de nourriture">
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -77,10 +72,9 @@
         <div class="bandeaujaune col-md-4 my-5"></div>
         <div class="bandeaubleu col-md-4 my-5"></div>
     </div>
-
     <h1 class="d-flex justify-content-center pb-4">Activités</h1>
     <div class="d-flex justify-content-center pb-4">
-        <img class="img-fluid" src="images/activites.png">
+        <img class="img-fluid img-hover-zoom" id="rounded" src="images/activites.png">
     </div>
 
     <footer class="p-4 bg-dark text-white text-center">
