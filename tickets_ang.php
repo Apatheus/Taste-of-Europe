@@ -42,13 +42,9 @@ if (isset($_POST['nom'])) {
 </head>
 
 <body>
-    <nav class="nav justify-content-center bg-light p-2">
-        <a class="nav-link link-dark mx-2" href="index_ang.html">Home</a>
-        <a class="nav-link link-dark mx-2" href="programme_ang.html">Program</a>
-        <a class="nav-link link-dark mx-2" href="index_ang.html"><img class="img-fluid" src="images/logo.png"></a>
-        <a class="nav-link link-dark mx-2" href="tickets_ang.php">Tickets</a>
-        <a class="nav-link link-dark mx-2" href="connection.php">Administration</a>
-    </nav>
+    <?php
+  include('header.html');
+  ?>
 
 
     <div class="grid">
@@ -74,10 +70,10 @@ if (isset($_POST['nom'])) {
                 <input name="mail" type="mail" class="form-control" placeholder="Votre adresse mail">
             </div>
             <div>
-                <label for="animation">animation</label>
+                <label for="animation">Animation</label>
                 <select name="animation">
-                    <option value="concour de cuisine">concour de cuisine</option>
-                    <option value="concour de mangeur"> concour de mangeur</option>
+                    <option value="concour de cuisine">Cooking contest</option>
+                    <option value="concour de mangeur">Blind tasting</option>
                 </select><br>
             </div>
 
@@ -94,6 +90,7 @@ if (isset($_POST['nom'])) {
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
