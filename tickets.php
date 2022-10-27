@@ -38,14 +38,6 @@ if (isset($_POST['nom'])) {
 </head>
 
 <body>
-    <nav class="nav justify-content-center bg-light p-2">
-        <a class="nav-link link-dark mx-2" href="index.html">Accueil</a>
-        <a class="nav-link link-dark mx-2" href="programme.html">Programme</a>
-        <a class="nav-link link-dark mx-2" href="index.html"><img class="img-fluid" src="images/logo.png"></a>
-        <a class="nav-link link-dark mx-2" href="tickets.php">Tickets</a>
-        <a class="nav-link link-dark mx-2" href="connection.php">Administration</a>
-    </nav>
-
 
     <div class="grid">
         <!-- Début Grille -->
@@ -54,26 +46,26 @@ if (isset($_POST['nom'])) {
 
         <!--formulaire a pas toucher-->
         <form action="tickets.php" method="POST" class="p-4 offset-md-4 col-md-4 justify-content-center border bg-light rounded ">
-            <legend>Inscription aux activités :</legend>
+            <legend>Inscription aux activités</legend>
             <div class="form-group mt-2">
                 <label for="nom">Nom :</label>
-                <input name="nom" type="text" class="form-control" placeholder="Votre nom">
+                <input name="nom" type="text" class="form-control">
             </div>
 
             <div class="form-group mt-2">
                 <label for="prenom">Prénom :</label>
-                <input name="prenom" type="text" class="form-control" placeholder="Votre prénom">
+                <input name="prenom" type="text" class="form-control">
             </div>
 
             <div class="form-group mt-2 mb-2">
                 <label for="mail">Adresse mail :</label>
-                <input name="mail" type="mail" class="form-control" placeholder="Votre adresse mail">
+                <input name="mail" type="mail" class="form-control">
             </div>
             <div>
-                <label for="animation">animation</label>
+                <label for="animation">Animation :</label>
                 <select name="animation">
-                    <option value="concour de cuisine">concour de cuisine</option>
-                    <option value="concour de mangeur"> concour de mangeur</option>
+                    <option value="concour de cuisine">Concours de cuisine</option>
+                    <option value="concour de mangeur">Concours de mangeur</option>
                 </select><br>
             </div>
 
