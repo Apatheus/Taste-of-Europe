@@ -44,7 +44,7 @@
             </div>
             <div class="col-md-4">
 
-                <p class="text-center"><h5>Régalez vos papilles</h5></p>
+                <p class="text-center"><h5>Treat your taste buds</h5></p>
                 <p class="text-justify">Taste of Europe is a festival gathering a great number of European countries wich the aim is to discover the different
                     cultures of the neighbouring countries of France and beyond. 
                     From the 18th to the 20th, discover Puy en Velay under its gourmet airs, for a festival gathering more than 10 European countries to make you 
