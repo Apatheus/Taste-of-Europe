@@ -70,10 +70,10 @@ if (isset($_POST['nom'])) {
                 <input name="mail" type="mail" class="form-control" placeholder="Votre adresse mail">
             </div>
             <div>
-                <label for="animation">animation</label>
+                <label for="animation">Animation</label>
                 <select name="animation">
-                    <option value="concour de cuisine">concour de cuisine</option>
-                    <option value="concour de mangeur"> concour de mangeur</option>
+                    <option value="concour de cuisine">Cooking contest</option>
+                    <option value="concour de mangeur">Blind tasting</option>
                 </select><br>
             </div>
 
