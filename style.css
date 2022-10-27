@@ -216,12 +216,13 @@ h1 {
 
 .img-hover-zoom {
     overflow: hidden;
-    border-radius: 1rem;
+    border-radius: 2rem;
 }
 
 .img-hover-zoom img {
     transition: transform .5s ease;
-    border-radius: 1rem;
+    border-radius: 2rem;
+    align-self: center;
 }
 
 .img-hover-zoom:hover img {
@@ -247,8 +248,7 @@ h1 {
 /* Page 2 */
 .imgcarou {
     width: 100%;
-    border-radius: 2rem;
-    align-items: center;
+
 }
 
 /* Admin, Tickets */
