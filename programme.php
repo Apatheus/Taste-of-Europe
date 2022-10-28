@@ -29,7 +29,7 @@
   include('header.html');
   ?>
 
-  <h1 class="d-flex justify-content-center pb-4">Animations</h1>
+  <h1 class="d-flex justify-content-center py-4">Animations</h1>
   <div class="row">
     <div class="col-md-4 offset-md-2">
       <div class="row d-flex items-align-center">
@@ -46,8 +46,8 @@
         <p>
       </div>
 
-      <div class="row text-center">
-        <a class="btn rounded-pill">
+      <div class="d-flex justify-content-center">
+        <a href="tickets.php" class="btn rounded-pill">
           Je m'inscris !
         </a>
       </div>
