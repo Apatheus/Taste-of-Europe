@@ -30,7 +30,7 @@
     ?>
 
     <div class="container text-center mt-5 position-relative">
-        <img class="img-fluid" id="rounded" src="images/banniere.jpg">
+        <img class="img-fluid" id="rounded" src="images/banniere.png">
         <a href="#" class="btn mt-3">I'm registering !</a>
     </div>
 
@@ -40,7 +40,7 @@
     <div class="container">
         <div class="row">
             <div class="offset-md-2 col-md-4">
-                <img class="img-fluid" id="rounded" src="images/food1.jpg">
+                <img class="img-fluid" id="rounded" src="images/le-poivrier.jpg">
             </div>
             <div class="col-md-4">
 
