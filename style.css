@@ -18,7 +18,7 @@
 /* Définition des paramètres racines */
 :root {
     /* light colors */
-    --light-background: rgb(182, 182, 182);
+    --light-background: rgb(240, 240, 240);
     --light-background-2: white;
     --light-color: black;
     --light-main-color: #63C5E4;
@@ -33,7 +33,6 @@
 
 body {
     font-family: 'helveticaneuelight';
-    transition: .5s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 nav {
@@ -48,7 +47,6 @@ nav {
 }
 
 .nav-link:hover {
-    transition: .5s cubic-bezier(0.075, 0.82, 0.165, 1);
     color: var(--light-main-color);
 }
 
@@ -95,7 +93,6 @@ h1 {
     align-items: center;
     justify-content: space-between;
     position: relative;
-    box-shadow: 2px 1px 1px var(--light-main-color);
     transition: .2s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
@@ -139,7 +136,6 @@ h1 {
 }
 
 .dark .nav-link:hover {
-    transition: .5s cubic-bezier(0.075, 0.82, 0.165, 1);
     color: var(--dark-main-color);
 }
 
@@ -150,17 +146,14 @@ h1 {
 .dark .btn {
     background-color: var(--dark-background-2);
     border-radius: 2rem;
-    transition: .5s cubic-bezier(0.165, 0.84, 0.44, 1);
-    box-shadow: 2px 1px var(--dark-main-color);
+    border: 2px solid white;
 }
 
 .dark .btn:hover {
     background-color: var(--dark-main-color);
-    box-shadow: 4px 4px var(--dark-background-2);
 }
 
 .dark .label {
-    box-shadow: 2px 1px 1px var(--dark-main-color);
     background: var(--dark-background);
 }
 
@@ -177,13 +170,11 @@ h1 {
 .btn {
     background-color: var(--light-background);
     border-radius: 2rem;
-    transition: .5s cubic-bezier(0.165, 0.84, 0.44, 1);
-    box-shadow: 2px 1px var(--light-main-color);
+    border: solid black 2px
 }
 
 .btn:hover {
     background-color: var(--light-main-color);
-    box-shadow: 4px 4px var(--light-background);
 }
 
 /* 1ere partie */
