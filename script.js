@@ -45,7 +45,7 @@ function myFunction1() {
   // Fin fonction cacher
 
 // Leaflet
-var map = L.map('map').setView([45.03968506707314, 3.883328892219707], 16);
+var map = L.map('map').setView([45.04168646263178, 3.8838653339563938], 16);
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
