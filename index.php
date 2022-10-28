@@ -40,7 +40,7 @@
     <div class="container">
         <div class="row">
             <div class="offset-md-2 col-md-4">
-                <img class="img-fluid" id="rounded" src="images/food1.jpg">
+                <img class="img-fluid" id="rounded" src="images/le-poivrier">
             </div>
             <div class="col-md-4">
 
