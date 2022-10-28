@@ -138,7 +138,7 @@ if (isset($_POST['id_am2'])) {
 
 
       <div class="text-center"><br>
-        <input type="submit" value="Envoyer" class="btn btn-warning">
+        <input type="submit" value="Envoyer" class="btn">
       </div>
     </form></br>
 
@@ -165,7 +165,7 @@ if (isset($_POST['id_am2'])) {
 
 
       <div class="text-center"><br>
-        <input type="submit" value="Envoyer" class="btn btn-warning">
+        <input type="submit" value="Envoyer" class="btn">
       </div>
     </form>
 
@@ -178,7 +178,7 @@ if (isset($_POST['id_am2'])) {
       <input name="id_supr" type="text" class="form-control" placeholder="id de l'activité">
 
       <div class="text-center"><br>
-        <input type="submit" value="Envoyer" class="btn btn-warning">
+        <input type="submit" value="Envoyer" class="btn">
       </div>
     </div>
   </form></br>
@@ -190,7 +190,7 @@ if (isset($_POST['id_am2'])) {
       <input name="id_supr2" type="text" class="form-control" placeholder="id de l'animation">
 
       <div class="text-center"><br>
-        <input type="submit" value="Envoyer" class="btn btn-warning">
+        <input type="submit" value="Envoyer" class="btn">
       </div>
     </div>
   </form>
@@ -220,7 +220,7 @@ if (isset($_POST['id_am2'])) {
 
 
     <div class="text-center"><br>
-      <input type="submit" value="Envoyer" class="btn btn-warning">
+      <input type="submit" value="Envoyer" class="btn">
     </div>
   </form></br>
 
@@ -247,7 +247,7 @@ if (isset($_POST['id_am2'])) {
 
 
     <div class="text-center"><br>
-      <input type="submit" value="Envoyer" class="btn btn-warning">
+      <input type="submit" value="Envoyer" class="btn">
     </div>
   </form>
 </div></br></br>
