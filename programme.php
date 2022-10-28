@@ -32,12 +32,21 @@
   <h1 class="d-flex justify-content-center pb-4">Animations</h1>
   <div class="row">
     <div class="col-md-4 offset-md-2">
-      <div class="row">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      <div class="row d-flex items-align-center">
+        <p>
+          Vous aimez les défis ? Taste of Europe a ce qu'il vous faut.<br> 
+          Si vous ne vous satisfaisez pas des activités classiques, participez à nos animations ! Au programme :
+          <ul>
+            <li> Des sessions de dégustation à l'aveugle.
+            <li> Un concours du meilleur cuisinier.
+            <li> Un concours du meilleur mangeur.
+          </ul>
+          À la clé, de superbes récompenses offertes par notre sponsor : Tefal.<br>
+          Intéressés ? Inscrivez-vous !
         <p>
       </div>
 
-      <div class="row d-flex justify-content-center">
+      <div class="row text-center">
         <a class="btn rounded-pill">
           Je m'inscris !
         </a>
