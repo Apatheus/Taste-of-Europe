@@ -251,14 +251,6 @@ h1 {
 
 /* Admin, Tickets */
 
-#bodyadmin {
-    background-image: url(https://justbagtags.com.au/wp-content/uploads/2019/05/16-patterns-01-bright-orange-waves-46.jpg);
-}
-
-#bodytickets {
+#bodyadmin, #bodytickets {
     background-image: url(https://dbdzm869oupei.cloudfront.net/img/vinylrugs/preview/29739.png);
-}
-
-#form1 ,#form2, #form3 {
-  display: none;
 }
