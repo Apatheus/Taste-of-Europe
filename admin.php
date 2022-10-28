@@ -108,7 +108,7 @@ if (isset($_POST['id_am2'])) {
     }
   }
   ?>
-  <div class="fond2">
+  <div class="fond2 text-center my-4">
     <button class="btn" onclick="myFunction1()">Ajout</button>
     <button class="btn" onclick="myFunction2()">supression</button>
     <button class="btn" onclick="myFunction3()">modifier</button>
