@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 
 <head>
 <meta charset="UTF-8">
@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <!-- CSS Flags Lib -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css"/>
-    <title>Taste of Europe - Programme</title>
+    <title>Taste of Europe - Program</title>
 </head>
 
 <body>
@@ -32,16 +32,24 @@
   <h1 class="d-flex justify-content-center pb-4">Animations</h1>
   <div class="row">
     <div class="col-md-4 offset-md-2">
-      <div class="row">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      <div class="row d-flex items-align-center">
+        <p>
+         Do you like challenges ? Taste of Europe has you covered.<br> 
+          If you are not satisfied with classic activities, take part in our activities! In the program :
+          <ul>
+            <li> Blind tasting sessions.
+            <li> A competition for the best cook.
+            <li> A competition for the best eater.
+          </ul>
+          As a result, superb rewards offered by our sponsor: Tefal.<br>
+          Interested? Sign up!
         <p>
       </div>
 
-      <div class="row d-flex justify-content-center">
-        <a class="btn rounded-pill">I'm registering !</a>
+      <div class="d-flex justify-content-center">
+        <a href="tickets.php" class="btn rounded-pill">
+          Sign up !
+        </a>
       </div>
     </div>
 
