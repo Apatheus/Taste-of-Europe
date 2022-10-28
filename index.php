@@ -30,7 +30,7 @@
     ?>
 
     <div class="container text-center mt-5 position-relative">
-        <img class="img-fluid" id="rounded" src="images/banniere.jpg">
+        <img class="img-fluid" id="rounded" src="images/banniere.png">
         <a href="tickets.php" class="btn rounded-pill mt-3">Je m'inscris !</a>
     </div>
 
