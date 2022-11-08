@@ -257,6 +257,9 @@ h1 {
 }
 .error {
     text-align: center;
-    widht: 400px;
-    height: 280px;
 }
+.error > img{
+  width:289px;
+  height:409px;
+}
+
