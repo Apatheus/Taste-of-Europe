@@ -92,7 +92,9 @@ if (isset($_POST['nom'])) {
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"></script>
   <!-- Mes scripts -->
-  <script src="script.js"></script>
+  <script src="script/script.js"></script>
+  <script src="script/darkmod.js"></script>
+
 </body>
 
 </html>

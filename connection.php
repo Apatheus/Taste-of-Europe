@@ -58,6 +58,9 @@
         Conçu par les MMI2 du Puy-en-Velay, année 2022-2023.
     </footer>
 
+    <script src="script/script.js"></script>
+  <script src="script/darkmod.js"></script>
+
 </body>
 
 </html>
