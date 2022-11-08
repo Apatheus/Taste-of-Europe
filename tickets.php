@@ -51,7 +51,7 @@ if (isset($_POST['nom'])) {
 
 
     <!--formulaire a pas toucher-->
-    <form action="tickets.php" method="POST" class="p-4 offset-md-4 col-md-4 justify-content-center border bg-light rounded ">
+    <form action="tickets.php" method="POST" class="p-4 offset-md-4 col-md-4 justify-content-center" id="rounded">
       <legend>Inscription aux activités :</legend>
       <div class="form-group mt-2">
         <label for="nom">Nom :</label>
@@ -78,7 +78,7 @@ if (isset($_POST['nom'])) {
 
 
       <div class="text-center"><br>
-        <input type="submit" value="Envoyer" class="btn btn-warning">
+        <input type="submit" value="Envoyer" class="btn">
       </div>
     </form></br></br></br>
   </div> <!-- Fin Grille -->
@@ -92,9 +92,8 @@ if (isset($_POST['nom'])) {
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"></script>
   <!-- Mes scripts -->
-  <script src="script/script.js"></script>
   <script src="script/darkmod.js"></script>
-
+    <script src="script/script.js"></script>
 </body>
 
 </html>

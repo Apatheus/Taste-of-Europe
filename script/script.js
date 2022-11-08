@@ -1,3 +1,5 @@
+window.addEventListener('DOMContentLoaded', (event) => {
+
 // Début fonction cacher
 function myFunction1() {
     var x = document.getElementById("form1");
@@ -59,5 +61,4 @@ var circle3 = L.circle([45.04140131889955, 3.883958293165474], {
 
 
 // Fin Leaflet
-  
-});
+  });

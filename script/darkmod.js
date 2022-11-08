@@ -1,7 +1,7 @@
 window.addEventListener('DOMContentLoaded', (event) => {
     // Début dark mode
     const darkMode = document.getElementById('dark-mode');
-    
+
     darkMode.addEventListener('change', () => {
       document.body.classList.toggle('dark');
     });
@@ -14,3 +14,4 @@ window.addEventListener('DOMContentLoaded', (event) => {
     // Usage
     isDarkMode();
     // fin dark mode
+  });
