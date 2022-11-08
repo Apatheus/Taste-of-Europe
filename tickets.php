@@ -78,7 +78,7 @@ if (isset($_POST['nom'])) {
 
 
       <div class="text-center"><br>
-        <input type="submit" value="Envoyer" class="btn rounded-pill">
+        <input type="submit" value="Envoyer" class="btn">
       </div>
     </form></br></br></br>
   </div> <!-- Fin Grille -->

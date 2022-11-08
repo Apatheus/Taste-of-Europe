@@ -76,7 +76,7 @@ h1 {
 }
 
 input[type=submit]{
-    background-color: blue;
+    color: var(--light-color);
 }
 
 /* Passage au mode sombre */
@@ -163,6 +163,9 @@ input[type=submit]{
 
 .dark .btn:hover {
     background-color: var(--dark-main-color);
+}
+.dark input[type=submit], input[type=reset]{
+    color: var(--dark-color);
 }
 
 .dark .label {
