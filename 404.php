@@ -28,7 +28,7 @@
   include ('header.html');
   ?>
   <div class="error">
-    <img src="images/logo.png" alt="logo taste">
+    <img src="spatule.png" alt="logo taste">
     <h1>Error 404</h1></br>
     <h2>Wrong url click on the logo for the main page</h2>
   </div>
