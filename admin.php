@@ -90,22 +90,18 @@ if (isset($_POST['id_am2'])) {
   <!--connectionadmin-->
   <?php
 
-  $msg = "";
   if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $name = $_POST["name"];
     $password = ($_POST["password"]);
-    if ($name == '' || $password == '') {
-      $msg = "You must enter all fields";
-    } else {
-      $requete = "SELECT * FROM admin WHERE login = '$name' AND mdp = '$password'";
-      $resultats = mysqli_query($link, $requete);
-      $tabMembers = mysqli_fetch_all($resultats, MYSQLI_ASSOC);
-      if (count($tabMembers) == 0) {
-        echo "Identifiants erronnés.";
-        exit;
-      }
+    $requete = "SELECT * FROM admin WHERE login = '$name' AND mdp = '$password'";
+    $resultats = mysqli_query($link, $requete);
+    $tabMembers = mysqli_fetch_all($resultats, MYSQLI_ASSOC);
+    if (count($tabMembers) == 0) {
+      echo "Identifiants erronnés.";
+      exit;
     }
   }
+
   ?>
   <div class="fond2 text-center my-4 offset-md-2 col-md-8">
     <div class="row text-center my-4">
@@ -305,8 +301,7 @@ if (isset($_POST['id_am2'])) {
   <!-- Script Bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   <!-- Mes scripts -->
-  <script src="script/script.js"></script>
-  <script src="script/darkmod.js"></script>
+  <script src="script.js"></script>
 
 
 

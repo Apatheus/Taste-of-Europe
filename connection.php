@@ -1,7 +1,7 @@
 <?php
     require "connexion_bdd.php";
     require "config.inc.php";
-    $connection = new BDD(DB_SERVER, DB_USER, DB_PASS, DB_DATABASE);
+    $connection = new BDD;
     $link = $connection->connexion();
 ?>
 
@@ -35,14 +35,14 @@
 
         <h1 class="d-flex justify-content-center mt-5 ">Accès à l'espace d'administration</h1>
         <div class="py-5 fond">
-            <form name="frmregister" action="admin.php" method="post" class="p-4 offset-md-4 col-md-4 justify-content-center border bg-light rounded">
+            <form name="frmregister" action="admin.php" method="POST" class="p-4 offset-md-4 col-md-4 justify-content-center border bg-light rounded">
                 <legend>Connexion</legend>
                 <div class="form-group mt-2">
                     <label for="name">Identifiant :</label>
                     <input class="form-control" name="name" id="name" type="text" size="30" />
                 
                 <div class="form-group mt-2">  
-                    <label for="name">Mot de passe :</label>
+                    <label for="password">Mot de passe :</label>
                     <input class="form-control" name="password" id="password" type="password" size="30" />
                 </div>
 
@@ -57,9 +57,6 @@
     <footer class="p-4 bg-dark text-white text-center fixed-bottom">
         Conçu par les MMI2 du Puy-en-Velay, année 2022-2023.
     </footer>
-
-    <script src="script/script.js"></script>
-  <script src="script/darkmod.js"></script>
 
 </body>
 
