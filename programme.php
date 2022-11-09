@@ -63,7 +63,7 @@
             <img src="images/animation2.png" id="rounded" class="d-block w-100 img-fluid" alt="Dégustation à l'aveugle">
           </div>
           <div class="carousel-item imgcarou">
-            <img src="images/animation3.jpg" id="rounded" class="d-block w-100 img-fluid" alt="Concours de nourriture">
+            <img src="images/animation3.png" id="rounded" class="d-block w-100 img-fluid" alt="Concours de nourriture">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
