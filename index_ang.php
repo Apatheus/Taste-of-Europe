@@ -31,7 +31,7 @@
 
     <div class="container text-center mt-5 position-relative">
         <img class="img-fluid" id="rounded" src="images/banniere.png">
-        <a href="#" class="btn mt-3">Register</a>
+        <a href="tickets_ang.php" class="btn mt-3">Register</a>
     </div>
 
     <div class="bandeaubleu mt-5 mb-5 text-white d-flex align-items-center"><h5>The flavors of Europe in one place!</h5></div>
@@ -52,7 +52,7 @@
                     stands, activities and various animation for adults and children.
                 </p><br>
                 <div class="text-center">
-                    <a href="#" class="btn rounded-pill">Register</a>
+                    <a href="tickets_ang.php" class="btn rounded-pill">Register</a>
                 </div>
             </div>
         </div>
