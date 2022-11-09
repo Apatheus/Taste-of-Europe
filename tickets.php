@@ -47,7 +47,7 @@ if (isset($_POST['nom'])) {
 
   <div class="grid">
     <!-- Début Grille -->
-    <h1 class="d-flex justify-content-center mt-5 ">Tickets</h1>
+    <h1 class="d-flex justify-content-center mt-5"id="dark">Tickets</h1>
 
 
     <!--formulaire a pas toucher-->

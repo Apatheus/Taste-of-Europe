@@ -43,6 +43,10 @@ form{
     background-color: var(--light-background);
 }
 
+#dark{
+    color: var(--light-color);
+}
+
 .nav-link {
     border-radius: 2rem;
     font-size: 20px;
@@ -73,6 +77,10 @@ h1 {
 }
 .row {
     margin:0; 
+}
+
+h5{
+    color: var(--light-color);
 }
 
 input[type=submit]{

@@ -30,7 +30,7 @@
 
     <?php include ('header.html');?>
  
-    <h1 class="d-flex justify-content-center mt-5 ">Accès à l'espace d'administration</h1>
+    <h1 class="d-flex justify-content-center mt-5" id="dark">Accès à l'espace d'administration</h1>
         <div class="py-5">
             <form name="frmregister" action="admin.php" method="POST" class="p-4 offset-md-4 col-md-4 justify-content-center" id="rounded">
                 <legend>Connexion</legend>
