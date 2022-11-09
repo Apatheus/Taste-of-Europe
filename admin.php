@@ -121,7 +121,7 @@ if (isset($_POST['id_am2'])) {
         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
           <div class="accordion-body bg-secondary">
 
-              <form action="admin.php" method="POST" class="p-4 offset-md-4 col-md-4 justify-content-center border bg-light ">
+              <form action="admin.php" method="POST" class="p-4 offset-md-4 col-md-4 justify-content-center border">
                 <legend> Ajout d'une activité</legend>
                 <div class="form-group mt-2">
                   <label for="id_a">ID :</label>
@@ -148,7 +148,7 @@ if (isset($_POST['id_am2'])) {
                 </div>
               </form></br>
 
-              <form action="admin.php" method="POST" class="p-4 offset-md-4 col-md-4 justify-content-center border border bg-light">
+              <form action="admin.php" method="POST" class="p-4 offset-md-4 col-md-4 justify-content-center border border">
                 <legend> Ajout d'une animation</legend>
                 <div class="form-group mt-2">
                   <label for="id_anim">ID :</label>
@@ -192,7 +192,7 @@ if (isset($_POST['id_am2'])) {
         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
           <div class="accordion-body bg-secondary">
 
-              <form action="admin.php" method="POST" class="p-4 offset-md-4 col-md-4 justify-content-center border border bg-light">
+              <form action="admin.php" method="POST" class="p-4 offset-md-4 col-md-4 justify-content-center border border">
                 <legend>Supprimer une activité</legend>
                 <div class="form-group mt-2">
                   <label for="id_supr">ID de l'activité :</label>
@@ -204,7 +204,7 @@ if (isset($_POST['id_am2'])) {
                 </div>
               </form></br>
 
-              <form action="admin.php" method="POST" class="p-4 offset-md-4 col-md-4 justify-content-center border border bg-light">
+              <form action="admin.php" method="POST" class="p-4 offset-md-4 col-md-4 justify-content-center border border ">
                 <legend>Supprimer une animation</legend>
                 <div class="form-group mt-2">
                   <label for="id_supr2">ID de l'animation :</label>
@@ -234,7 +234,7 @@ if (isset($_POST['id_am2'])) {
         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
           <div class="accordion-body bg-secondary">
 
-              <form action="admin.php" method="POST" class="p-4 offset-md-4 col-md-4 justify-content-center border border bg-light">
+              <form action="admin.php" method="POST" class="p-4 offset-md-4 col-md-4 justify-content-center border border">
                 <legend> Modifier une activité</legend>
                 <div class="form-group mt-2">
                   <label for="id_am">ID de l'activité à modifier :</label>
@@ -261,7 +261,7 @@ if (isset($_POST['id_am2'])) {
                 </div>
               </form></br>
 
-              <form action="admin.php" method="POST" class="p-4 offset-md-4 col-md-4 justify-content-center border border bg-light">
+              <form action="admin.php" method="POST" class="p-4 offset-md-4 col-md-4 justify-content-center border border">
                 <legend>Modifier une animation</legend>
                 <div class="form-group mt-2">
                   <label for="id_am2">ID de l'animation à modifier</label>
@@ -301,7 +301,8 @@ if (isset($_POST['id_am2'])) {
   <!-- Script Bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   <!-- Mes scripts -->
-  <script src="script.js"></script>
+  <script src="script/darkmod.js"></script>
+  <script src="script/script.js"></script>
 
 
 

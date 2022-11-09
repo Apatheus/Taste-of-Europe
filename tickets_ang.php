@@ -51,7 +51,7 @@ if (isset($_POST['nom'])) {
 
 
     <!--formulaire a pas toucher-->
-    <form action="tickets.php" method="POST" class="p-4 offset-md-4 col-md-4 justify-content-center border bg-light rounded ">
+    <form action="tickets.php" method="POST" class="p-4 offset-md-4 col-md-4 justify-content-center" id="rounded">
       <legend>Registration for activities :</legend>
       <div class="form-group mt-2">
         <label for="nom">Name :</label>
@@ -71,13 +71,14 @@ if (isset($_POST['nom'])) {
         <label for="animation">Animation</label>
         <select name="animation">
           <option value="concour de cuisine">Cooking contest</option>
-          <option value="concour de mangeur">Blind tasting</option>
+          <option value="concour de mangeur">Biggest eater contest</option>
+          <option value="degustation à l'aveugle">Blind tasting</option>  
         </select><br>
       </div>
 
 
       <div class="text-center"><br>
-        <input type="submit" value="Submit" class="btn btn-warning">
+        <input type="submit" value="Submit" class="btn">
       </div>
     </form></br></br></br>
   </div> <!-- Fin Grille -->
