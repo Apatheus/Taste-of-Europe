@@ -47,7 +47,7 @@ if (isset($_POST['nom'])) {
 
   <div class="grid">
     <!-- Début Grille -->
-    <h1 class="d-flex justify-content-center mt-5" id="dark">Tickets</h1>
+    <h1 class="d-flex justify-content-center mt-5"id="dark">Tickets</h1>
 
 
     <!--formulaire a pas toucher-->
@@ -59,20 +59,20 @@ if (isset($_POST['nom'])) {
       </div>
 
       <div class="form-group mt-2">
-        <label for="prenom">Last name :</label>
-        <input name="prenom" type="text" class="form-control" placeholder="Your last name">
+        <label for="prenom">First name :</label>
+        <input name="prenom" type="text" class="form-control" placeholder="Your first name">
       </div>
 
       <div class="form-group mt-2 mb-2">
         <label for="mail">E-mail address :</label>
-        <input name="mail" type="mail" class="form-control" placeholder="Your E-mail address">
+        <input name="mail" type="mail" class="form-control" placeholder="Your e-mail address">
       </div>
       <div>
-        <label for="animation">Animation</label>
+        <label for="animation">Animations</label>
         <select name="animation">
           <option value="concour de cuisine">Cooking contest</option>
-          <option value="concour de mangeur">Biggest eater contest</option>
-          <option value="degustation à l'aveugle">Blind tasting</option>  
+            <option value="concour de mangeur">Eating contest</option>
+          <option value="degustation à l'aveugle">Blind testing</option>
         </select><br>
       </div>
 
@@ -85,7 +85,7 @@ if (isset($_POST['nom'])) {
 
 
   <footer class="p-4 bg-dark text-white text-center fixed-bottom">
-   Design by MMI2 of Puy-en-Velay, 2022-2023.
+    Designed by MMI2 Puy-en-Velay, 2022-2023.
   </footer>
   <!-- Script Bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
@@ -93,6 +93,7 @@ if (isset($_POST['nom'])) {
       crossorigin="anonymous"></script>
   <!-- Mes scripts -->
   <script src="script/darkmod.js"></script>
-    <script src="script/script.js"></script></body>
+    <script src="script/script.js"></script>
+</body>
 
 </html>
