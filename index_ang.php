@@ -109,7 +109,7 @@
 
     <div class="bandeaujaune mt-5 mb-5"></div>
 
-    <h1 class="d-flex justify-content-center">Lieu de l'événement</h1>
+    <h1 class="d-flex justify-content-center">Place of the event</h1>
     <div class="container">
         <p class="text-center offset-md-2 col-md-8">Le Puy-en-Velay, famous starting point of Saint Jacques de Compostela, capital of
         lentils and verbena is the ideal place to share these moments with its cobbled streets and its
