@@ -94,11 +94,11 @@
             </div>
 
             <div class="col-md-2 img-hover-zoom">
-                <img class="img-fluid" src="image site/plat francais carre.webp" alt="Escargots de Bourgogne">
+                <img class="img-fluid" src="image site/plat francais carre.webp" alt="Burgundy snails">
             </div>
 
             <div class="col-md-2 img-hover-zoom">
-                <img class="img-fluid" src="image site/plat polonais carre.webp" alt="Goulash de porc">
+                <img class="img-fluid" src="image site/plat polonais carre.webp" alt="Pork Goulash">
             </div>
 
             <div class="col-md-2 img-hover-zoom">
