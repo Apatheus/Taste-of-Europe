@@ -48,28 +48,28 @@ if (isset($_POST['nom'])) {
 
   <div class="grid">
     <!-- Début Grille -->
-    <h1 class="d-flex justify-content-center mt-5"id="dark">Tickets</h1>
+    <h1 class="d-flex justify-content-center mt-5"id="dark">Register for activities</h1>
 
 
     <!--formulaire a pas toucher-->
-    <form action="tickets.php" method="POST" class="p-4 offset-md-4 col-md-4 justify-content-center" id="rounded">
-      <legend>Registration for activities :</legend>
+    <form action="tickets_ang.php" method="POST" class="p-4 offset-md-4 col-md-4 justify-content-center" id="rounded">
+      <legend>Registration for activities</legend>
       <div class="form-group mt-2">
-        <label for="nom">Name :</label>
+        <label for="nom">Name: </label>
         <input name="nom" type="text" class="form-control" placeholder="Your name">
       </div>
 
       <div class="form-group mt-2">
-        <label for="prenom">First name :</label>
+        <label for="prenom">First name: </label>
         <input name="prenom" type="text" class="form-control" placeholder="Your first name">
       </div>
 
       <div class="form-group mt-2 mb-2">
-        <label for="mail">E-mail address :</label>
+        <label for="mail">E-mail address: </label>
         <input name="mail" type="mail" class="form-control" placeholder="Your e-mail address">
       </div>
       <div>
-        <label for="animation">Animations</label>
+        <label for="animation">Animation: </label>
         <select name="animation">
           <option value="concour de cuisine">Cooking contest</option>
             <option value="concour de mangeur">Eating contest</option>
