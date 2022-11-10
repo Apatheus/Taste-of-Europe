@@ -48,7 +48,7 @@
                 <p class="text-center"><h5>Régalez vos papilles</h5></p>
                 <p class="text-justify">Taste of Europe est un événement ayant pour but de faire découvrir les nombreuses
                     spécialités culinaires du Vieux Continent. <br>
-                    Du 18 au 20 juillet, découvrez le Puy-en-Velay sous ses airs gourmands, pour un festival réunissant plus de
+                    Du 28 au 30 juillet, découvrez le Puy-en-Velay sous ses airs gourmands, pour un festival réunissant plus de
                     10 pays européen pour vous faire découvrir tout un panel de saveurs inhabituelles ! c’est dans une
                     ambiance de fête décontractée que vous déambulerez dans les rues de la ville à la découvertes des
                     stands, activités et diverses animations pour grands et petits.
