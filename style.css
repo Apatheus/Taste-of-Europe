@@ -18,7 +18,7 @@
 /* Définition des paramètres racines */
 :root {
     /* light colors */
-    --light-background: rgb(240, 240, 240);
+    --light-background: rgb(180, 212, 219);
     --light-background-2: white;
     --light-color: black;
     --light-main-color: #63C5E4;
@@ -37,6 +37,11 @@ body {
 
 nav {
     background: var(--light-background);
+}
+
+#logo {
+    height: 80px;
+    width: auto;
 }
 
 form{
@@ -92,13 +97,13 @@ input[type=submit]{
 .toggle {
     position: absolute;
     right: 2rem;
-    top: 2rem;
+    top: 1rem;
 }
 
 .drapeau {
     position: absolute;
-    left: 2rem;
-    top: 2rem;
+    right: 2.75rem;
+    top: 4rem;
 }
 
 .checkbox {
@@ -177,6 +182,8 @@ input[type=submit]{
 
 .dark .btn:hover {
     background-color: var(--dark-main-color);
+    color: black;
+    border: solid var(--dark-main-color) 2px; 
 }
 .dark input[type=submit], input[type=reset]{
     color: var(--dark-color);
@@ -197,13 +204,16 @@ input[type=submit]{
 }
 
 .btn {
-    background-color: var(--light-background);
+    background-color: black;
     border-radius: 2rem;
-    border: solid black 2px
+    border: solid black 2px;
+    color: white;
 }
 
 .btn:hover {
     background-color: var(--light-main-color);
+    color: black;
+    border: solid var(--light-main-color) 2px; 
 }
 
 /* 1ere partie */
