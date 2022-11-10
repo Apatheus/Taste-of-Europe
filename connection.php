@@ -52,9 +52,10 @@
         </div>
 
     </div>
-    <footer class="p-4 bg-dark text-white text-center fixed-bottom">
-        Conçu par les MMI2 du Puy-en-Velay, année 2022-2023.
-    </footer>
+    <?php
+        include ('footer.html');
+    ?>
+
     <script src="script/darkmod.js"></script>
     <script src="script/script.js"></script>
 

@@ -155,7 +155,7 @@ input[type=submit]{
 }
 
 .dark nav {
-    background: var(--dark-background-2);
+    background: #e27b40;
     color: var(--dark-color);
 }
 
@@ -316,4 +316,3 @@ input[type=submit]{
 .plan a:hover{
     color: #ED7D3B;
 }
-

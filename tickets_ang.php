@@ -84,10 +84,10 @@ if (isset($_POST['nom'])) {
     </form></br></br></br>
   </div> <!-- Fin Grille -->
 
+  <?php
+    include ('footer_ang.html');
+  ?>
 
-  <footer class="p-4 bg-dark text-white text-center fixed-bottom">
-    Designed by MMI2 Puy-en-Velay, 2022-2023.
-  </footer>
   <!-- Script Bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"

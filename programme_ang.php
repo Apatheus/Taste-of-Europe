@@ -30,7 +30,8 @@
   include('header_ang.html');
   ?>
 
-  <h1 class="d-flex justify-content-center pb-4">Animations</h1>
+  <h1 class="d-flex justify-content-center py
+  -4">Animations</h1>
   <div class="row">
     <div class="col-md-4 offset-md-2">
       <div class="row d-flex items-align-center">
@@ -89,9 +90,9 @@
     <img class="img-fluid" id="rounded" src="images/activitésV2.png">
   </div>
 
-  <footer class="p-4 bg-dark text-white text-center">
-    Design by MMI2 of Puy-en-Velay, 2022-2023.
-  </footer>
+  <?php
+    include ('footer_ang.html');
+  ?>
 
   <!-- Script Bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

@@ -89,9 +89,9 @@
     <img class="img-fluid" id="rounded" src="images/activitésV2.png">
   </div>
 
-  <footer class="p-4 bg-dark text-white text-center">
-    Conçu par les MMI2 du Puy-en-Velay, année 2022-2023.
-  </footer>
+  <?php
+    include ('footer.html');
+  ?>
 
   <!-- Script Bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

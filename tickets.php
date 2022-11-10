@@ -85,9 +85,10 @@ if (isset($_POST['nom'])) {
   </div> <!-- Fin Grille -->
 
 
-  <footer class="p-4 bg-dark text-white text-center fixed-bottom">
-    Conçu par les MMI2 du Puy-en-Velay, année 2022-2023.
-  </footer>
+  <?php
+    include ('footer.html');
+  ?>
+
   <!-- Script Bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"

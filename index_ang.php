@@ -121,9 +121,9 @@
     </div>
     <p class="text-center fst-italic mb-5">Place du Martouret - 43000, Le Puy-en-Velay</p>
 
-    <footer class="p-4 bg-dark text-white text-center">
-        Designed by MMI2 of Puy-en-Velay, 2022-2023.
-    </footer>
+    <?php
+    include ('footer_ang.html');
+    ?>
 
     <!-- Script Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
