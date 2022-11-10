@@ -61,49 +61,49 @@
 
     <div class="bandeauorange mt-5 mb-5"></div>
 
-      <h1 class="d-flex justify-content-center">Spécialités culinaires</h1>
+      <h1 class="d-flex justify-content-center">Culinary specialties</h1>
     <div class="container" id="plat">
         <div class="row mt-5">
             <div class="offset-md-1 col-md-2 img-hover-zoom">
-                <img class="img-fluid " src="image site/plat slovaque carre.webp">
+                <img class="img-fluid " src="image site/plat slovaque carre.webp" alt="Bryndzové halušky">
             </div>
 
             <div class="col-md-2 img-hover-zoom">
-                <img class="img-fluid " src="image site/plat roumain carre.webp">
+                <img class="img-fluid " src="image site/plat roumain carre.webp" alt="Sarmale">
             </div>
 
             <div class="col-md-2 img-hover-zoom">
-                <img class="img-fluid " src="image site/palt grec carre.webp">
+                <img class="img-fluid" src="image site/palt grec carre.webp" alt="Souvlakis">
             </div>
 
             <div class="col-md-2 img-hover-zoom">
-                <img class="img-fluid " src="image site/plat pays bas carre.webp">
+                <img class="img-fluid " src="image site/plat pays bas carre.webp" alt="Bitterballen">
             </div>
 
             <div class="col-md-2 img-hover-zoom">
-                <img class="img-fluid " src="image site/plat portugais carre.webp">
+                <img class="img-fluid " src="image site/plat portugais carre.webp" alt="Cabrado asado">
             </div>
         </div>
 
         <div class="row mt-4">
             <div class="offset-md-1 col-md-2 img-hover-zoom">
-                <img class="img-fluid" src="image site/plat finlandais carre.webp">
+                <img class="img-fluid" src="image site/plat finlandais carre.webp" alt="Kalakukko">
             </div>
 
             <div class="col-md-2 img-hover-zoom">
-                <img class="img-fluid" src="image site/plat lituanien carre.webp">
+                <img class="img-fluid" src="image site/plat lituanien carre.webp" alt="Cepelinai">
             </div>
 
             <div class="col-md-2 img-hover-zoom">
-                <img class="img-fluid" src="image site/plat francais carre.webp">
+                <img class="img-fluid" src="image site/plat francais carre.webp" alt="Escargots de Bourgogne">
             </div>
 
             <div class="col-md-2 img-hover-zoom">
-                <img class="img-fluid" src="image site/plat polonais carre.webp">
+                <img class="img-fluid" src="image site/plat polonais carre.webp" alt="Goulash de porc">
             </div>
 
             <div class="col-md-2 img-hover-zoom">
-                <img class="img-fluid" src="image site/plat danois carre.webp">
+                <img class="img-fluid" src="image site/plat danois carre.webp" alt="Stegt flaesk">
             </div>
         </div>
     </div>
