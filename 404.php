@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" media="(prefers-color-scheme: light)" content="white">
     <meta name="theme-color" media="(prefers-color-scheme: dark)" content="black">
-    <meta name="description" content="Le site web du festival Taste of Europe.">
     <!-- CSS Leaflet -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
         integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin="" />
@@ -29,7 +28,7 @@
   include ('header.html');
   ?>
   <div class="error">
-    <img src="images/spatule.png" alt="logo taste">
+    <img src="spatule.png" alt="logo taste">
     <h1>Error 404</h1></br>
     <h2>Wrong url click on the logo for the main page</h2>
   </div>
@@ -45,5 +44,6 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
     <!-- Mes scripts -->
-    <script src="script.js"></script>
+    <script src="script/darkmod.js"></script>
+    <script src="script/script.js"></script>
 </body>
