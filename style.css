@@ -296,3 +296,24 @@ input[type=submit]{
   height:409px;
 }
 
+.plan{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.plan li{
+    list-style-type: none;
+    font-size: 7vh;
+    width: 100%;
+    text-align: center;
+    margin: 10vh;
+}
+
+.plan a{
+    text-decoration: none;
+}
+
+.plan a:hover{
+    color: #ED7D3B;
+}
+
