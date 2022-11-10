@@ -95,6 +95,12 @@ input[type=submit]{
     top: 2rem;
 }
 
+.drapeau {
+    position: absolute;
+    left: 2rem;
+    top: 2rem;
+}
+
 .checkbox {
     display: none;
 }
