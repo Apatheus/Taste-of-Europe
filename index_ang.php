@@ -64,52 +64,52 @@
     <div class="container" id="plat">
         <div class="row mt-5">
             <div class="offset-md-1 col-md-2 img-hover-zoom">
-                <img class="img-fluid " src="image site/plat slovaque carre.webp">
+                <img class="img-fluid " src="image site/plat slovaque carre.webp" alt="Bryndzové halušky">
             </div>
 
             <div class="col-md-2 img-hover-zoom">
-                <img class="img-fluid " src="image site/plat roumain carre.webp">
+                <img class="img-fluid " src="image site/plat roumain carre.webp" alt="Sarmale">
             </div>
 
             <div class="col-md-2 img-hover-zoom">
-                <img class="img-fluid " src="image site/palt grec carre.webp">
+                <img class="img-fluid" src="image site/palt grec carre.webp" alt="Souvlakis">
             </div>
 
             <div class="col-md-2 img-hover-zoom">
-                <img class="img-fluid " src="image site/plat pays bas carre.webp">
+                <img class="img-fluid " src="image site/plat pays bas carre.webp" alt="Bitterballen">
             </div>
 
             <div class="col-md-2 img-hover-zoom">
-                <img class="img-fluid " src="image site/plat portugais carre.webp">
+                <img class="img-fluid " src="image site/plat portugais carre.webp" alt="Cabrado asado">
             </div>
         </div>
 
         <div class="row mt-4">
             <div class="offset-md-1 col-md-2 img-hover-zoom">
-                <img class="img-fluid" src="image site/plat finlandais carre.webp">
+                <img class="img-fluid" src="image site/plat finlandais carre.webp" alt="Kalakukko">
             </div>
 
             <div class="col-md-2 img-hover-zoom">
-                <img class="img-fluid" src="image site/plat lituanien carre.webp">
+                <img class="img-fluid" src="image site/plat lituanien carre.webp" alt="Cepelinai">
             </div>
 
             <div class="col-md-2 img-hover-zoom">
-                <img class="img-fluid" src="image site/plat francais carre.webp">
+                <img class="img-fluid" src="image site/plat francais carre.webp" alt="Burgundy snails">
             </div>
 
             <div class="col-md-2 img-hover-zoom">
-                <img class="img-fluid" src="image site/plat polonais carre.webp">
+                <img class="img-fluid" src="image site/plat polonais carre.webp" alt="Pork Goulash">
             </div>
 
             <div class="col-md-2 img-hover-zoom">
-                <img class="img-fluid" src="image site/plat danois carre.webp">
+                <img class="img-fluid" src="image site/plat danois carre.webp" alt="Stegt flaesk">
             </div>
         </div>
     </div>
 
     <div class="bandeaujaune mt-5 mb-5"></div>
 
-    <h1 class="d-flex justify-content-center">Lieu de l'événement</h1>
+    <h1 class="d-flex justify-content-center">Place of the event</h1>
     <div class="container">
         <p class="text-center offset-md-2 col-md-8">Le Puy-en-Velay, famous starting point of Saint Jacques de Compostela, capital of
         lentils and verbena is the ideal place to share these moments with its cobbled streets and its
