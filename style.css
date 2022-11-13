@@ -86,6 +86,11 @@ h1 {
 
 h5{
     color: var(--light-color);
+    font-weight: bold;
+}
+
+.dark .text-black {
+    color: black!important;
 }
 
 /* Passage au mode sombre */
@@ -191,6 +196,10 @@ h5{
 
 .dark .ball {
     background: var(--dark-main-color);
+}
+
+.dark h5 {
+    color: var(--dark-color);
 }
 
 /* FIN MODE SOMBRE */

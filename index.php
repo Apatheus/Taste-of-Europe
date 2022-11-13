@@ -35,11 +35,11 @@
         <a href="tickets.php" class="btn rounded-pill mt-3">Je m'inscris !</a>
     </div>
 
-    <div class="bandeaubleu mt-5 mb-5 text-white d-flex align-items-center"><h5>Les saveurs de l'Europe en une seule et même place !</h5></div>
+    <div class="bandeaubleu mt-5 mb-5 text-black">Les saveurs de l'Europe en une seule et même place !</div>
 
     <h1 class="d-flex justify-content-center mb-5">Taste of Europe, c'est quoi ?</h1>
     <div class="container">
-        <div class="row">
+        <div class="row align-items-center">
             <div class="offset-md-2 col-md-4 d-flex align-items-center">
                     <img class="img-fluid" id="rounded" src="images/le-poivrier.jpg">
             </div>
@@ -48,11 +48,11 @@
                 <p class="text-center"><h5>Régalez vos papilles</h5></p>
                 <p class="text-justify">Taste of Europe est un événement ayant pour but de faire découvrir les nombreuses
                     spécialités culinaires du Vieux Continent. <br>
-                    Du 28 au 30 juillet, découvrez le Puy-en-Velay sous ses airs gourmands, pour un festival réunissant plus de
-                    10 pays européen pour vous faire découvrir tout un panel de saveurs inhabituelles ! c’est dans une
+                    Du 28 au 30 juillet, découvrez le Puy-en-Velay sous ses airs gourmands, dans un festival réunissant plus de
+                    10 pays européens pour vous faire découvrir tout un panel de saveurs inhabituelles ! C’est dans une
                     ambiance de fête décontractée que vous déambulerez dans les rues de la ville à la découvertes des
                     stands, activités et diverses animations pour grands et petits.
-                </p><br>
+                </p>
                 <div class="text-center">
                     <a href="tickets.php" class="btn rounded-pill">S'inscrire</a>
                 </div>
@@ -62,7 +62,7 @@
 
     <div class="bandeauorange mt-5 mb-5"></div>
 
-      <h1 class="d-flex justify-content-center">Culinary specialties</h1>
+      <h1 class="d-flex justify-content-center">Spécialités Culinaires</h1>
     <div class="container" id="plat">
         <div class="row mt-5">
             <div class="offset-md-1 col-md-2 img-hover-zoom">
@@ -112,10 +112,10 @@
     <div class="bandeaujaune mt-5 mb-5"></div>
 
     <h1 class="d-flex justify-content-center">Lieu de l'événement</h1>
-    <div class="container">
-        <p class="text-center offset-md-2 col-md-8">Le Puy-en-Velay, célèbre point de départ de Saint Jacque de Compostelle, capitale des
-        lentilles et de la verveine constitue l’endroit idéal pour partager ces moments avec ses rues pavé et ses
-        bâtiments ancien.</p>
+    <div class="container text-center offset-md-2 col-md-8">
+        <p>Le Puy-en-Velay, célèbre point de départ de Saint Jacques de Compostelle ainsi que capitale des
+        lentilles et de la verveine, est le lieu que nous avons choisi pour vous donner rendez-vous.</p>
+        <p>Ci-dessous les différentes zones du festival dans lesquelles se tiendront les activités !</p>
     </div>
     <div class="d-flex justify-content-center mt-5 mb-1">
         <div id="map"></div>

@@ -35,11 +35,11 @@
         <a href="tickets_ang.php" class="btn mt-3">Register</a>
     </div>
 
-    <div class="bandeaubleu mt-5 mb-5 text-white d-flex align-items-center"><h5>The flavors of Europe in one place!</h5></div>
+    <div class="bandeaubleu mt-5 mb-5 text-black">The flavors of Europe in one place!</div>
 
     <h1 class="d-flex justify-content-center mb-5">What is Taste of Europe?</h1>
     <div class="container">
-        <div class="row">
+        <div class="row align-items-center">
             <div class="offset-md-2 col-md-4">
                 <img class="img-fluid" id="rounded" src="images/le-poivrier.jpg">
             </div>
@@ -51,7 +51,7 @@
                     From the 28th to the 30th, discover Puy en Velay under its gourmet airs, for a festival gathering more than 10 European countries to make you 
                     discover a whole panel of unusual flavours! It is in a relaxed festive atmosphere that you will stroll in the streets of the city to discover 
                     stands, activities and various animation for adults and children.
-                </p><br>
+                </p>
                 <div class="text-center">
                     <a href="tickets_ang.php" class="btn rounded-pill">Register</a>
                 </div>
@@ -111,10 +111,10 @@
     <div class="bandeaujaune mt-5 mb-5"></div>
 
     <h1 class="d-flex justify-content-center">Place of the event</h1>
-    <div class="container">
-        <p class="text-center offset-md-2 col-md-8">Le Puy-en-Velay, famous starting point of Saint Jacques de Compostela, capital of
-        lentils and verbena is the ideal place to share these moments with its cobbled streets and its
-        old buildings.</p>
+    <div class="container text-center offset-md-2 col-md-8">
+        <p>Le Puy-en-Velay, famous starting point of Saint Jacques de Compostela, capital city of
+        lentils and verbena is the place we chose to meet you.</p>
+        <p>Below are the various zones of the festival, with different activities for each of them!</p>
     </div>
     <div class="d-flex justify-content-center mt-5 mb-1">
         <div id="map"></div>

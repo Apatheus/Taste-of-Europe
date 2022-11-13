@@ -8,12 +8,7 @@
     <meta name="theme-color" media="(prefers-color-scheme: light)" content="white">
     <meta name="theme-color" media="(prefers-color-scheme: dark)" content="black">
     <meta name="description" content="Le site web du festival Taste of Europe.">
-    <!-- CSS Leaflet -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
-        integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin="" />
-    <!-- JS Leaflet -->
-    <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
-        integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg=" crossorigin=""></script>
+
     <!-- CSS Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -31,9 +26,10 @@
   ?>
 
   <h1 class="d-flex justify-content-center py-4">Animations</h1>
-  <div class="row">
+  <div class="row align-items-center">
     <div class="col-md-4 offset-md-2">
       <div class="row d-flex items-align-center">
+        <p><strong> Un festival d'activités </strong></p>
         <p>
           Vous aimez les défis ? Taste of Europe a ce qu'il vous faut.<br> 
           Si vous ne vous satisfaisez pas des activités classiques, participez à nos animations ! Au programme :
