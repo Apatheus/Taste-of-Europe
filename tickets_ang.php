@@ -48,7 +48,7 @@ if (isset($_POST['nom'])) {
 
   <div class="grid">
     <!-- Début Grille -->
-    <h1 class="d-flex justify-content-center mt-5"id="dark">Registration for animations</h1>
+    <h1 class="d-flex justify-content-center my-5" id="dark">Registration for animations</h1>
 
 
     <!--formulaire a pas toucher-->
