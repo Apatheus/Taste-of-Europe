@@ -48,12 +48,12 @@ if (isset($_POST['nom'])) {
 
   <div class="grid">
     <!-- Début Grille -->
-    <h1 class="d-flex justify-content-center mt-5"id="dark">Register for activities</h1>
+    <h1 class="d-flex justify-content-center mt-5"id="dark">Registration for animations</h1>
 
 
     <!--formulaire a pas toucher-->
     <form action="tickets_ang.php" method="POST" class="p-4 offset-md-4 col-md-4 justify-content-center" id="rounded">
-      <legend>Registration for activities</legend>
+      <legend>Register to an animation</legend>
       <div class="form-group mt-2">
         <label for="nom">Name: </label>
         <input name="nom" type="text" class="form-control" placeholder="Your name">
@@ -74,11 +74,10 @@ if (isset($_POST['nom'])) {
           <option value="concour de cuisine">Cooking contest</option>
             <option value="concour de mangeur">Eating contest</option>
           <option value="degustation à l'aveugle">Blind testing</option>
-        </select><br>
+        </select>
       </div>
 
-
-      <div class="text-center"><br>
+      <div class="text-center">
         <input type="submit" value="Submit" class="btn">
       </div>
     </form></br></br></br>

@@ -283,9 +283,10 @@ h5{
 
 #bodyadmin, #bodytickets {
     background-image: url(images/bgbody.jpg);
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    width: 100vw;
 }
 .error {
     text-align: center;
@@ -314,4 +315,12 @@ h5{
 
 .plan a:hover{
     color: #ED7D3B;
+}
+
+.dark #lien-admin {
+    color: #ED7D3B;
+}
+
+.dark #lien-admin:hover {
+    color: #ad673f;
 }
