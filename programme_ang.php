@@ -25,8 +25,7 @@
   include('header_ang.html');
   ?>
 
-  <h1 class="d-flex justify-content-center py
-  -4">Animations</h1>
+  <h1 class="d-flex justify-content-center py-5">Animations</h1>
   <div class="row align-items-center">
     <div class="col-md-4 offset-md-2">
       <div class="row d-flex items-align-center">
@@ -81,8 +80,8 @@
     <div class="bandeaujaune col-md-4 my-5"></div>
     <div class="bandeaubleu col-md-4 my-5"></div>
   </div>
-  <h1 class="d-flex justify-content-center pb-4">Activities</h1>
-  <div class="d-flex justify-content-center pb-4">
+  <h1 class="d-flex justify-content-center">Activities</h1>
+  <div class="d-flex justify-content-center my-5">
     <img class="img-fluid" id="rounded" src="images/activitésV2.png">
   </div>
 

@@ -27,17 +27,16 @@
   <?php
   include ('header.html');
   ?>
-  <div class="error">
-    <img src="spatule.png" alt="logo taste">
-    <h1>Error 404</h1></br>
-    <h2>Wrong url click on the logo for the main page</h2>
+
+  <div class="error mt-5">
+    <h1>Erreur 404</h1></br>
+    <h2>Malheureusement, cette page n'existe pas.</h2><br>
+    <img src="images/spatule.png" alt="logo taste">
   </div>
 
-
-
-    <footer class="p-4 bg-dark text-white text-center">
-        Conçu par les MMI2 du Puy-en-Velay, année 2022-2023.
-    </footer>
+  <?php
+  include ('footer.html');
+  ?>
 
     <!-- Script Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

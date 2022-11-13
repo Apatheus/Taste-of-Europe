@@ -80,7 +80,12 @@ if (isset($_POST['nom'])) {
       <div class="text-center">
         <input type="submit" value="Submit" class="btn">
       </div>
-    </form></br></br></br>
+      <?php
+      if (isset($_POST['nom'])) {
+        echo "Successfully registered.";
+      }
+      ?>
+    </form></br>
   </div> <!-- Fin Grille -->
 
   <?php

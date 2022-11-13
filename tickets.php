@@ -80,6 +80,12 @@ if (isset($_POST['nom'])) {
       <div class="text-center">
         <input type="submit" value="Envoyer" class="btn">
       </div>
+
+      <?php
+      if (isset($_POST['nom'])) {
+        echo "Enregistrement effectué evec succès.";
+      }
+      ?>
     </form></br>
   </div> <!-- Fin Grille -->
 

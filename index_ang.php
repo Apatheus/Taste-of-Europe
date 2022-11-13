@@ -31,7 +31,7 @@
     ?>
 
     <div class="container text-center mt-5 position-relative">
-        <img class="img-fluid" id="rounded" src="images/banniere.png">
+        <img class="img-fluid shadow" id="rounded" src="images/banniere.png">
         <a href="tickets_ang.php" class="btn mt-3">Register</a>
     </div>
 
@@ -108,16 +108,15 @@
         </div>
     </div>
 
-    <div class="bandeaujaune mt-5 mb-5"></div>
+    <div class="bandeaujaune my-5"></div>
 
-    <h1 class="d-flex justify-content-center">Place of the event</h1>
+    <h1 class="d-flex justify-content-center mb-5">Place of the event</h1>
     <div class="container text-center offset-md-2 col-md-8">
         <p>Le Puy-en-Velay, famous starting point of Saint Jacques de Compostela, capital city of
-        lentils and verbena is the place we chose to meet you.</p>
-        <p>Below are the various zones of the festival, with different activities for each of them!</p>
+        lentils and verbena is the place we chose to meet you. Below are the various zones of the festival, with different activities for each of them!</p>
     </div>
-    <div class="d-flex justify-content-center mt-5 mb-1">
-        <div id="map"></div>
+    <div class="d-flex justify-content-center my-3">
+        <div id="map" class="shadow"></div>
     </div>
     <p class="text-center fst-italic mb-5">Place du Martouret - 43000, Le Puy-en-Velay</p>
 

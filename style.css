@@ -247,15 +247,8 @@ h5{
     justify-content: center;
 }
 
-.img-hover-zoom {
-    overflow: hidden;
-    border-radius: 2rem;
-}
-
 .img-hover-zoom img {
     transition: transform .5s ease;
-    border-radius: 2rem;
-    align-self: center;
 }
 
 .img-hover-zoom:hover img {

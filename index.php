@@ -31,7 +31,7 @@
     ?>
 
     <div class="container text-center mt-5 position-relative">
-        <img class="img-fluid" id="rounded" src="images/banniere.png">
+        <img class="img-fluid shadow" id="rounded" src="images/banniere.png">
         <a href="tickets.php" class="btn rounded-pill mt-3">Je m'inscris !</a>
     </div>
 
@@ -109,16 +109,15 @@
         </div>
     </div>
 
-    <div class="bandeaujaune mt-5 mb-5"></div>
+    <div class="bandeaujaune my-5"></div>
 
-    <h1 class="d-flex justify-content-center">Lieu de l'événement</h1>
+    <h1 class="d-flex justify-content-center mb-5">Lieu de l'événement</h1>
     <div class="container text-center offset-md-2 col-md-8">
         <p>Le Puy-en-Velay, célèbre point de départ de Saint Jacques de Compostelle ainsi que capitale des
-        lentilles et de la verveine, est le lieu que nous avons choisi pour vous donner rendez-vous.</p>
-        <p>Ci-dessous les différentes zones du festival dans lesquelles se tiendront les activités !</p>
+        lentilles et de la verveine, est le lieu que nous avons choisi pour vous donner rendez-vous. Ci-dessous les différentes zones du festival dans lesquelles se tiendront les activités !</p>
     </div>
-    <div class="d-flex justify-content-center mt-5 mb-1">
-        <div id="map"></div>
+    <div class="d-flex justify-content-center my-3">
+        <div id="map" class="shadow"></div>
     </div>
     <p class="text-center fst-italic mb-5">Place du Martouret - 43000, Le Puy-en-Velay</p>
 
