@@ -32,7 +32,6 @@
 
     <div class="container text-center mt-5 position-relative">
         <img class="img-fluid shadow" id="rounded" src="images/banniere.png">
-        <a href="tickets_ang.php" class="btn mt-3">Register</a>
     </div>
 
     <div class="bandeaubleu mt-5 mb-5 text-black">The flavors of Europe in one place!</div>
@@ -45,7 +44,7 @@
             </div>
             <div class="col-md-4">
 
-                <p class="text-center"><h5>Treat your taste buds</h5></p>
+                <p class="text-center"><h5>Treat your taste buds!</h5></p>
                 <p class="text-justify">Taste of Europe is a festival gathering a great number of European countries wich the aim is to discover the different
                     cultures of the neighbouring countries of France and beyond. 
                     From the 28th to the 30th, discover Puy en Velay under its gourmet airs, for a festival gathering more than 10 European countries to make you 
@@ -53,7 +52,7 @@
                     stands, activities and various animation for adults and children.
                 </p>
                 <div class="text-center">
-                    <a href="tickets_ang.php" class="btn rounded-pill">Register</a>
+                    <a href="programme_ang.php" class="btn rounded-pill">Learn more</a>
                 </div>
             </div>
         </div>
