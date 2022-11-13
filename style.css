@@ -88,8 +88,6 @@ h5{
     color: var(--light-color);
 }
 
-
-
 /* Passage au mode sombre */
 
 .toggle {
@@ -284,7 +282,10 @@ h5{
 /* Admin, Tickets */
 
 #bodyadmin, #bodytickets {
-    background-image: url(https://dbdzm869oupei.cloudfront.net/img/vinylrugs/preview/29739.png);
+    background-image: url(images/bgbody.jpg);
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
 }
 .error {
     text-align: center;

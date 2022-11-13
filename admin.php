@@ -115,15 +115,15 @@ if (isset($_POST['id_am2'])) {
       <div class="accordion-item">
         <!-- Début section 1 -->
         <h2 class="accordion-header" id="headingOne">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          <strong>Ajouter une activité</strong>
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          <strong>Ajouter à la BDD</strong>
           </button>
         </h2>
-        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
           <div class="accordion-body bg-secondary">
 
               <form action="admin.php" method="POST" class="p-4 offset-md-4 col-md-4 justify-content-center border">
-                <legend> Ajout d'une activité</legend>
+                <legend> Ajouter une activié</legend>
                 <div class="form-group mt-2">
                   <label for="id_a">ID :</label>
                   <input name="id_a" type="text" class="form-control" placeholder="id de l'activité">
@@ -150,7 +150,7 @@ if (isset($_POST['id_am2'])) {
               </form></br>
 
               <form action="admin.php" method="POST" class="p-4 offset-md-4 col-md-4 justify-content-center border border">
-                <legend> Ajout d'une animation</legend>
+                <legend> Ajouter une animation</legend>
                 <div class="form-group mt-2">
                   <label for="id_anim">ID :</label>
                   <input name="id_anim" type="text" class="form-control" placeholder="id de l'animation">
@@ -187,7 +187,7 @@ if (isset($_POST['id_am2'])) {
         <!-- Début section 2 -->
         <h2 class="accordion-header" id="headingTwo">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-            <strong>Supprimer une activité</strong>
+            <strong>Supprimer de la BDD</strong>
           </button>
         </h2>
         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
@@ -229,7 +229,7 @@ if (isset($_POST['id_am2'])) {
         <!-- Début section 3 -->
         <h2 class="accordion-header" id="headingThree">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          <strong>Modifier une activité</strong>
+          <strong>Modifier la BDD</strong>
           </button>
         </h2>
         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
