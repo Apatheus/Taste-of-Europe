@@ -178,7 +178,6 @@ h5{
 .dark .btn {
     background-color: var(--dark-background-2);
     border-radius: 2rem;
-    border: 2px solid white;
 }
 
 .dark .btn:hover {
