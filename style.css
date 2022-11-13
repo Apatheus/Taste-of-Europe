@@ -60,7 +60,7 @@ form{
 }
 
 .nav-link:hover {
-    color: var(--light-main-color);
+    color: white;
 }
 
 .nav-link:hover:nth-child(3n+3) {
@@ -168,7 +168,7 @@ h5{
 }
 
 .dark .nav-link:hover {
-    color: var(--dark-main-color);
+    color: black;
 }
 
 .dark .nav-link:hover:nth-child(3) {
