@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css"/>
     <title>erreur 404 sur le site taste of europe</title>
 </head>
-<body>
+<body class="d-flex flex-column min-vh-100">
   <?php
   include ('header.html');
   ?>

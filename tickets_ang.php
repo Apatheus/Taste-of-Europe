@@ -41,7 +41,7 @@ if (isset($_POST['nom'])) {
 
 </head>
 
-<body id="bodytickets">
+<body class="d-flex flex-column min-vh-100" id="bodytickets">
   <?php include ('header_ang.html') ?>
 
 

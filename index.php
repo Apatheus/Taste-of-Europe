@@ -25,7 +25,7 @@
     <title>Taste of Europe</title>
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
     <?php
     include ('header.html');
     ?>

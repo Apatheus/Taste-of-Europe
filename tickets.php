@@ -41,7 +41,7 @@ if (isset($_POST['nom'])) {
 
 </head>
 
-<body id="bodytickets">
+<body class="d-flex flex-column min-vh-100" id="bodytickets">
   <?php include ('header.html') ?>
 
 
@@ -78,10 +78,10 @@ if (isset($_POST['nom'])) {
       </div>
 
 
-      <div class="text-center"><br>
+      <div class="text-center">
         <input type="submit" value="Envoyer" class="btn">
       </div>
-    </form></br></br></br>
+    </form></br>
   </div> <!-- Fin Grille -->
 
 

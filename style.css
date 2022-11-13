@@ -88,9 +88,7 @@ h5{
     color: var(--light-color);
 }
 
-input[type=submit]{
-    color: var(--light-color);
-}
+
 
 /* Passage au mode sombre */
 
@@ -286,7 +284,7 @@ input[type=submit]{
 /* Admin, Tickets */
 
 #bodyadmin, #bodytickets {
-    background-image: url(https://dbdzm869oupei.cloudfront.net/img/vinylrugs/preview/29739.png)no-repeat 0 0 fixed;
+    background-image: url(https://dbdzm869oupei.cloudfront.net/img/vinylrugs/preview/29739.png);
 }
 .error {
     text-align: center;

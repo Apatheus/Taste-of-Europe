@@ -83,7 +83,7 @@ if (isset($_POST['id_am2'])) {
 
 </head>
 
-<body id="bodyadmin">
+<body class="d-flex flex-column min-vh-100" id="bodyadmin">
   <?php
   include('header.html');
   ?>
