@@ -81,8 +81,10 @@ if (isset($_POST['nom'])) {
         <input type="submit" value="Submit" class="btn">
       </div>
       <?php
-      if (isset($_POST['nom'])) {
-        echo "Successfully registered.";
+      if (!empty($_POST['mail'] && $_POST['nom'] && $_POST['prenom'])) {
+        echo "<p class='text-success text-center'>Successfully registered.</p>";
+      } elseif (isset($_POST['nom'])) {  
+        echo "<p class='text-danger text-center'>Please fill every text area.</p>";
       }
       ?>
     </form></br>

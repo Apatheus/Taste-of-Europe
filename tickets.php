@@ -82,8 +82,10 @@ if (isset($_POST['nom'])) {
       </div>
 
       <?php
-      if (isset($_POST['nom'])) {
-        echo "Enregistrement effectué evec succès.";
+      if (!empty($_POST['mail'] && $_POST['nom'] && $_POST['prenom'])) {
+        echo "<p class='text-success text-center'>Enregistrement effectué avec succès.</p>";
+      } elseif (isset($_POST['nom'])) {  
+        echo "<p class='text-danger text-center'>Veuillez remplir tous les champs.</p>";
       }
       ?>
     </form></br>
