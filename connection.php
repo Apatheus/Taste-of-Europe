@@ -1,7 +1,7 @@
 <?php
     require "connexion_bdd.php";
     require "config.inc.php";
-    $connection = new BDD;
+    $connection = new BDD(DB_SERVER, DB_USER, DB_PASS, DB_DATABASE);
     $link = $connection->connexion();
 ?>
 
