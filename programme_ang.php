@@ -82,7 +82,7 @@
   </div>
   <h1 class="d-flex justify-content-center">Activities</h1>
   <div class="d-flex justify-content-center my-5">
-    <img class="img-fluid" id="rounded" src="images/activitésV2.png">
+    <img class="img-fluid" id="rounded" src="images/banniere2.png">
   </div>
 
   <?php
