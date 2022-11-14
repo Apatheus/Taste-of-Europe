@@ -105,7 +105,7 @@ if (isset($_POST['id_am2'])) {
 
   ?>
   <div class="fond2 text-center my-4 offset-md-2 col-md-8">
-    <div class="row text-center my-4">
+    <div class="row text-center my-4 text-black">
       <h5>Cette page sert à ajouter, supprimer ou modifier les activités présentes dans la base de données.</h5>
     </div>
 

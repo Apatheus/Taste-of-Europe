@@ -29,7 +29,7 @@
   <div class="row align-items-center">
     <div class="col-md-4 offset-md-2">
       <div class="row d-flex items-align-center">
-        <p><strong> Un festival d'activités </strong></p>
+        <p><h5>Un festival d'activités </h5></p>
         <p>
           Vous aimez les défis ? Taste of Europe a ce qu'il vous faut.<br> 
           Si vous ne vous satisfaisez pas des activités classiques, participez à nos animations ! Au programme :
